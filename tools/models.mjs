@@ -28,16 +28,16 @@ const material=(color,metal=.5,rough=.35,texture)=>({pbrMetallicRoughness:{baseC
 const cylinder=(rt,rb,h,y)=>{const g=new THREE.CylinderGeometry(rt,rb,h,8,1);g.rotateY(Math.PI/8);g.translate(0,y,0);return g;};
 for(const team of ['Blue','Red'])for(let k=1;k<=7;k++){
   const r=k===1?.43:k===7?.32:.38;
-  const shell=team==='Blue'?'#3d5565':'#8c6d42';
-  const body=cylinder(r,r+.025,.19,.16),rim=cylinder(r+.015,r+.025,.035,.27),face=new THREE.CircleGeometry(r-.028,8);face.rotateZ(Math.PI/8);face.rotateX(-Math.PI/2);face.translate(0,.294,0);
+  const shell=team==='Blue'?'#456e70':'#956653';
+  const body=cylinder(r,r+.025,.42,.25),rim=cylinder(r+.015,r+.025,.055,.49),foot=cylinder(r+.02,r+.035,.07,.06),face=new THREE.CircleGeometry(r-.028,8);face.rotateZ(Math.PI/8);face.rotateX(-Math.PI/2);face.translate(0,.522,0);
   // glTF image V starts at the top: map the glyph toward the far side of the board.
   const positions=face.getAttribute('position'),uv=face.getAttribute('uv');for(let i=0;i<positions.count;i++)uv.setXY(i,.5+positions.getX(i)/(2*r),.5+positions.getZ(i)/(2*r));
-  await save(team+k,[{geometry:body},{geometry:rim,material:1},{geometry:face,material:2}],[material(shell,.8,.28),material(team==='Blue'?'#9bb0bb':'#cbaa70',.65,.25),material('#ffffff',.12,.58,`Assets/Art/${team}${k}.png`)]);
+  await save(team+k,[{geometry:body},{geometry:rim,material:1},{geometry:foot,material:1},{geometry:face,material:2}],[material(shell,.12,.45),material(team==='Blue'?'#9bb0bb':'#cbaa70',.65,.25),material('#ffffff',.12,.58,`Assets/Art/${team}${k}.png`)]);
 }
-const base=new THREE.BoxGeometry(9.6,.28,10.6);base.translate(0,-.22,0);
+const base=new THREE.BoxGeometry(9.6,.65,10.6);base.translate(0,-.405,0);
 const bevel=new THREE.BoxGeometry(9.35,.12,10.35);bevel.translate(0,-.055,0);
 const board=new THREE.PlaneGeometry(9.2,10.2);board.rotateX(-Math.PI/2);board.translate(0,.012,0);
-await save('Board',[{geometry:base},{geometry:bevel,material:1},{geometry:board,material:2}],[material('#15212c',.82,.3),material('#8d7957',.72,.28),material('#ffffff',.25,.63,'Assets/Art/BoardMetal.png')]);
+await save('Board',[{geometry:base},{geometry:bevel,material:1},{geometry:board,material:2}],[material('#35433f',.15,.4),material('#8d7957',.72,.28),material('#ffffff',.25,.63,'Assets/Art/BoardMetal.png')]);
 for(const [name,radius,tube] of [['Selection',.49,.025],['Hint',.11,.024]]){
   const g=new THREE.TorusGeometry(radius,tube,8,32);g.rotateX(-Math.PI/2);
   const m=material('#dcbb72',.25,.3);m.emissiveFactor=[.3,.2,.05];await save(name,[{geometry:g}],[m]);

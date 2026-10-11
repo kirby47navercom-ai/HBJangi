@@ -1,12 +1,12 @@
 {
   "passed": true,
-  "build": "2026-10-11T06-59-30-386Z-cb55d67d",
+  "build": "2026-10-11T07-07-17-463Z-c715ef40",
   "checks": [
     "native BeginPlay",
     "32 modeled pieces facing respective owners",
     "embedded Hanja textures",
     "board-only art and native HUD",
-    "straight overhead orthographic camera",
+    "aligned 65 degree camera with visible piece and board sides",
     "no decorative background actors",
     "formation",
     "3D pointer ray picking",

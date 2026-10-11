@@ -20,14 +20,14 @@ image = Image.new('RGB', (1800, 2048), '#17222c')
 draw = ImageDraw.Draw(image)
 # Fine brushed metal; deliberately no random state or external assets.
 for y in range(2048):
-    c = 31 + (y * 17 % 7)
-    draw.line((0, y, 1800, y), fill=(c - 9, c, c + 9))
+    c = 218 + (y * 17 % 4)
+    draw.line((0, y, 1800, y), fill=(c + 12, c + 5, c - 13))
 def point(x, z):
     return ((x + 4.6) / 9.2 * 1800, (z + 5.1) / 10.2 * 2048)
-def line(a, b, width=3, color='#8e947f'):
+def line(a, b, width=3, color='#888572'):
     draw.line((*point(*a), *point(*b)), fill=color, width=width)
 # Faction motifs belong to the physical board, with a quiet playing grid.
-for z, tint, accent in [(-4.5, '#203238', '#85b5b7'), (2.5, '#30262c', '#b58988')]:
+for z, tint, accent in [(-4.5, '#cadbd5', '#4d8583'), (2.5, '#e7cebf', '#a66860')]:
     draw.rectangle((*point(-1, z), *point(1, z + 2)), fill=tint)
     for x in [-1.15, 1.15]:
         line((x, z + .15), (x, z + 1.85), 2, accent)

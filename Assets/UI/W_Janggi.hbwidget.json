@@ -92,10 +92,10 @@
       "bindings": {}
     },
     {
-      "id": "BlueBanner",
-      "name": "BlueBanner",
+      "id": "BlueSeal",
+      "name": "BlueSeal",
       "parent": "root",
-      "type": "Image",
+      "type": "Text",
       "slot": {
         "anchors": [
           0,
@@ -104,10 +104,10 @@
           0
         ],
         "offset": [
-          35,
-          27,
-          252,
-          82
+          72,
+          103,
+          90,
+          95
         ],
         "alignment": [
           0,
@@ -128,8 +128,8 @@
         "deadZone": 0.15,
         "floating": false,
         "deviceVisibility": "all",
-        "text": "",
-        "texture": "Assets/Art/Banner.svg",
+        "text": "楚",
+        "texture": "",
         "font": "",
         "rotation": 0,
         "scale": [
@@ -145,8 +145,8 @@
           0,
           0
         ],
-        "fontSize": 20,
-        "color": "#deded6",
+        "fontSize": 64,
+        "color": "#547f7d",
         "background": "#00000000",
         "accent": "#589ad6",
         "hover": "#365778",
@@ -176,10 +176,10 @@
       "bindings": {}
     },
     {
-      "id": "RedBanner",
-      "name": "RedBanner",
+      "id": "RedSeal",
+      "name": "RedSeal",
       "parent": "root",
-      "type": "Image",
+      "type": "Text",
       "slot": {
         "anchors": [
           0,
@@ -188,10 +188,10 @@
           0
         ],
         "offset": [
-          993,
-          27,
-          252,
-          82
+          1115,
+          103,
+          90,
+          95
         ],
         "alignment": [
           0,
@@ -212,8 +212,8 @@
         "deadZone": 0.15,
         "floating": false,
         "deviceVisibility": "all",
-        "text": "",
-        "texture": "Assets/Art/Banner.svg",
+        "text": "漢",
+        "texture": "",
         "font": "",
         "rotation": 0,
         "scale": [
@@ -229,8 +229,8 @@
           0,
           0
         ],
-        "fontSize": 20,
-        "color": "#deded6",
+        "fontSize": 64,
+        "color": "#a36560",
         "background": "#00000000",
         "accent": "#589ad6",
         "hover": "#365778",
@@ -272,9 +272,9 @@
           0
         ],
         "offset": [
-          59,
-          35,
-          215,
+          75,
+          213,
+          140,
           36
         ],
         "alignment": [
@@ -296,7 +296,7 @@
         "deadZone": 0.15,
         "floating": false,
         "deviceVisibility": "all",
-        "text": "楚  ·  청연",
+        "text": "청 연",
         "texture": "",
         "font": "",
         "rotation": 0,
@@ -313,8 +313,8 @@
           0,
           0
         ],
-        "fontSize": 27,
-        "color": "#d0e7e6",
+        "fontSize": 23,
+        "color": "#345d59",
         "background": "#00000000",
         "accent": "#589ad6",
         "hover": "#365778",
@@ -356,9 +356,9 @@
           0
         ],
         "offset": [
-          1016,
-          35,
-          215,
+          1066,
+          213,
+          140,
           36
         ],
         "alignment": [
@@ -380,7 +380,7 @@
         "deadZone": 0.15,
         "floating": false,
         "deviceVisibility": "all",
-        "text": "漢  ·  홍련",
+        "text": "홍 련",
         "texture": "",
         "font": "",
         "rotation": 0,
@@ -397,8 +397,8 @@
           0,
           0
         ],
-        "fontSize": 27,
-        "color": "#f0d1bd",
+        "fontSize": 23,
+        "color": "#985e58",
         "background": "#00000000",
         "accent": "#589ad6",
         "hover": "#365778",
@@ -411,7 +411,7 @@
         "enabled": true,
         "focusable": true,
         "tooltip": "",
-        "align": "left",
+        "align": "right",
         "value": 0,
         "min": 0,
         "max": 1,
@@ -440,9 +440,9 @@
           0
         ],
         "offset": [
-          62,
           76,
-          204,
+          255,
+          140,
           24
         ],
         "alignment": [
@@ -481,8 +481,8 @@
           0,
           0
         ],
-        "fontSize": 16,
-        "color": "#b8c9c4",
+        "fontSize": 15,
+        "color": "#456b65",
         "background": "#00000000",
         "accent": "#589ad6",
         "hover": "#365778",
@@ -524,9 +524,9 @@
           0
         ],
         "offset": [
-          1019,
-          76,
-          204,
+          1066,
+          255,
+          140,
           24
         ],
         "alignment": [
@@ -565,8 +565,8 @@
           0,
           0
         ],
-        "fontSize": 16,
-        "color": "#c9b8a0",
+        "fontSize": 15,
+        "color": "#886e60",
         "background": "#00000000",
         "accent": "#589ad6",
         "hover": "#365778",
@@ -579,7 +579,7 @@
         "enabled": true,
         "focusable": true,
         "tooltip": "",
-        "align": "left",
+        "align": "right",
         "value": 0,
         "min": 0,
         "max": 1,
@@ -608,10 +608,10 @@
           0
         ],
         "offset": [
-          480,
-          13,
-          320,
-          34
+          490,
+          20,
+          300,
+          42
         ],
         "alignment": [
           0,
@@ -632,7 +632,7 @@
         "deadZone": 0.15,
         "floating": false,
         "deviceVisibility": "all",
-        "text": "將 棋",
+        "text": "청연 · 홍련",
         "texture": "",
         "font": "",
         "rotation": 0,
@@ -649,8 +649,8 @@
           0,
           0
         ],
-        "fontSize": 26,
-        "color": "#ecdfbf",
+        "fontSize": 29,
+        "color": "#365c58",
         "background": "#00000000",
         "accent": "#589ad6",
         "hover": "#365778",
@@ -680,90 +680,6 @@
       "bindings": {}
     },
     {
-      "id": "TurnBanner",
-      "name": "TurnBanner",
-      "parent": "root",
-      "type": "Image",
-      "slot": {
-        "anchors": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "offset": [
-          495,
-          54,
-          290,
-          44
-        ],
-        "alignment": [
-          0,
-          0
-        ],
-        "zIndex": 0,
-        "fill": 0
-      },
-      "properties": {
-        "inputKey": "space",
-        "inputMode": "keys",
-        "axisX": "MoveX",
-        "axisY": "MoveY",
-        "keyUp": "w",
-        "keyDown": "s",
-        "keyLeft": "a",
-        "keyRight": "d",
-        "deadZone": 0.15,
-        "floating": false,
-        "deviceVisibility": "all",
-        "text": "",
-        "texture": "Assets/Art/Turn.svg",
-        "font": "",
-        "rotation": 0,
-        "scale": [
-          1,
-          1
-        ],
-        "fillDirection": "leftToRight",
-        "fillTexture": "",
-        "backgroundTexture": "",
-        "nineSlice": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "fontSize": 20,
-        "color": "#deded6",
-        "background": "#00000000",
-        "accent": "#589ad6",
-        "hover": "#365778",
-        "pressed": "#1e4061",
-        "borderColor": "#4a5f73",
-        "borderWidth": 0,
-        "radius": 4,
-        "opacity": 1,
-        "visible": true,
-        "enabled": true,
-        "focusable": true,
-        "tooltip": "",
-        "align": "left",
-        "value": 0,
-        "min": 0,
-        "max": 1,
-        "step": 0.01,
-        "padding": 8,
-        "gap": 8,
-        "columns": 2,
-        "checked": false,
-        "placeholder": "",
-        "maxLength": 256,
-        "wrap": true
-      },
-      "events": {},
-      "bindings": {}
-    },
-    {
       "id": "Status",
       "name": "Status",
       "parent": "root",
@@ -776,9 +692,9 @@
           0
         ],
         "offset": [
-          505,
-          60,
-          270,
+          440,
+          69,
+          400,
           30
         ],
         "alignment": [
@@ -817,8 +733,8 @@
           0,
           0
         ],
-        "fontSize": 22,
-        "color": "#ecdfbf",
+        "fontSize": 19,
+        "color": "#456c62",
         "background": "#00000000",
         "accent": "#589ad6",
         "hover": "#365778",
@@ -860,9 +776,9 @@
           0
         ],
         "offset": [
-          1110,
-          852,
-          130,
+          1000,
+          854,
+          230,
           22
         ],
         "alignment": [
@@ -902,7 +818,7 @@
           0
         ],
         "fontSize": 14,
-        "color": "#e6dac4",
+        "color": "#526e66",
         "background": "#00000000",
         "accent": "#589ad6",
         "hover": "#365778",
@@ -932,90 +848,6 @@
       "bindings": {}
     },
     {
-      "id": "NoticeBanner",
-      "name": "NoticeBanner",
-      "parent": "root",
-      "type": "Image",
-      "slot": {
-        "anchors": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "offset": [
-          35,
-          687,
-          245,
-          94
-        ],
-        "alignment": [
-          0,
-          0
-        ],
-        "zIndex": 0,
-        "fill": 0
-      },
-      "properties": {
-        "inputKey": "space",
-        "inputMode": "keys",
-        "axisX": "MoveX",
-        "axisY": "MoveY",
-        "keyUp": "w",
-        "keyDown": "s",
-        "keyLeft": "a",
-        "keyRight": "d",
-        "deadZone": 0.15,
-        "floating": false,
-        "deviceVisibility": "all",
-        "text": "",
-        "texture": "Assets/Art/Notice.svg",
-        "font": "",
-        "rotation": 0,
-        "scale": [
-          1,
-          1
-        ],
-        "fillDirection": "leftToRight",
-        "fillTexture": "",
-        "backgroundTexture": "",
-        "nineSlice": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "fontSize": 20,
-        "color": "#deded6",
-        "background": "#00000000",
-        "accent": "#589ad6",
-        "hover": "#365778",
-        "pressed": "#1e4061",
-        "borderColor": "#4a5f73",
-        "borderWidth": 0,
-        "radius": 4,
-        "opacity": 1,
-        "visible": true,
-        "enabled": true,
-        "focusable": true,
-        "tooltip": "",
-        "align": "left",
-        "value": 0,
-        "min": 0,
-        "max": 1,
-        "step": 0.01,
-        "padding": 8,
-        "gap": 8,
-        "columns": 2,
-        "checked": false,
-        "placeholder": "",
-        "maxLength": 256,
-        "wrap": true
-      },
-      "events": {},
-      "bindings": {}
-    },
-    {
       "id": "Notice",
       "name": "Notice",
       "parent": "root",
@@ -1028,10 +860,10 @@
           0
         ],
         "offset": [
-          54,
-          706,
-          205,
-          65
+          40,
+          595,
+          210,
+          100
         ],
         "alignment": [
           0,
@@ -1069,8 +901,8 @@
           0,
           0
         ],
-        "fontSize": 17,
-        "color": "#e6dfcf",
+        "fontSize": 16,
+        "color": "#526e66",
         "background": "#00000000",
         "accent": "#589ad6",
         "hover": "#365778",
@@ -1112,10 +944,10 @@
           0
         ],
         "offset": [
-          340,
-          826,
+          365,
+          809,
           130,
-          44
+          48
         ],
         "alignment": [
           0,
@@ -1137,7 +969,7 @@
         "floating": false,
         "deviceVisibility": "all",
         "text": "",
-        "texture": "Assets/Art/Button.svg",
+        "texture": "Assets/Art/PorcelainButton.png",
         "font": "",
         "rotation": 0,
         "scale": [
@@ -1197,10 +1029,10 @@
           0
         ],
         "offset": [
-          340,
-          826,
+          365,
+          809,
           130,
-          44
+          48
         ],
         "alignment": [
           0,
@@ -1238,12 +1070,12 @@
           0,
           0
         ],
-        "fontSize": 16,
-        "color": "#e9dbbf",
+        "fontSize": 14,
+        "color": "#345957",
         "background": "#00000000",
         "accent": "#589ad6",
-        "hover": "#e5c98c22",
-        "pressed": "#e5c98c40",
+        "hover": "#ffffff30",
+        "pressed": "#547f7d30",
         "borderColor": "#4a5f73",
         "borderWidth": 0,
         "radius": 0,
@@ -1283,10 +1115,10 @@
           0
         ],
         "offset": [
-          483,
-          826,
-          146,
-          44
+          505,
+          809,
+          130,
+          48
         ],
         "alignment": [
           0,
@@ -1308,7 +1140,7 @@
         "floating": false,
         "deviceVisibility": "all",
         "text": "",
-        "texture": "Assets/Art/Button.svg",
+        "texture": "Assets/Art/PorcelainButton.png",
         "font": "",
         "rotation": 0,
         "scale": [
@@ -1368,10 +1200,10 @@
           0
         ],
         "offset": [
-          483,
-          826,
-          146,
-          44
+          505,
+          809,
+          130,
+          48
         ],
         "alignment": [
           0,
@@ -1409,12 +1241,12 @@
           0,
           0
         ],
-        "fontSize": 16,
-        "color": "#e9dbbf",
+        "fontSize": 14,
+        "color": "#345957",
         "background": "#00000000",
         "accent": "#589ad6",
-        "hover": "#e5c98c22",
-        "pressed": "#e5c98c40",
+        "hover": "#ffffff30",
+        "pressed": "#547f7d30",
         "borderColor": "#4a5f73",
         "borderWidth": 0,
         "radius": 0,
@@ -1454,10 +1286,10 @@
           0
         ],
         "offset": [
-          642,
-          826,
-          155,
-          44
+          645,
+          809,
+          140,
+          48
         ],
         "alignment": [
           0,
@@ -1479,7 +1311,7 @@
         "floating": false,
         "deviceVisibility": "all",
         "text": "",
-        "texture": "Assets/Art/Button.svg",
+        "texture": "Assets/Art/PorcelainButton.png",
         "font": "",
         "rotation": 0,
         "scale": [
@@ -1539,10 +1371,10 @@
           0
         ],
         "offset": [
-          642,
-          826,
-          155,
-          44
+          645,
+          809,
+          140,
+          48
         ],
         "alignment": [
           0,
@@ -1580,12 +1412,12 @@
           0,
           0
         ],
-        "fontSize": 16,
-        "color": "#e9dbbf",
+        "fontSize": 14,
+        "color": "#345957",
         "background": "#00000000",
         "accent": "#589ad6",
-        "hover": "#e5c98c22",
-        "pressed": "#e5c98c40",
+        "hover": "#ffffff30",
+        "pressed": "#547f7d30",
         "borderColor": "#4a5f73",
         "borderWidth": 0,
         "radius": 0,
@@ -1625,10 +1457,10 @@
           0
         ],
         "offset": [
-          810,
-          826,
+          795,
+          809,
           130,
-          44
+          48
         ],
         "alignment": [
           0,
@@ -1650,7 +1482,7 @@
         "floating": false,
         "deviceVisibility": "all",
         "text": "",
-        "texture": "Assets/Art/Button.svg",
+        "texture": "Assets/Art/PorcelainButton.png",
         "font": "",
         "rotation": 0,
         "scale": [
@@ -1710,10 +1542,10 @@
           0
         ],
         "offset": [
-          810,
-          826,
+          795,
+          809,
           130,
-          44
+          48
         ],
         "alignment": [
           0,
@@ -1751,12 +1583,12 @@
           0,
           0
         ],
-        "fontSize": 16,
-        "color": "#e9dbbf",
+        "fontSize": 14,
+        "color": "#345957",
         "background": "#00000000",
         "accent": "#589ad6",
-        "hover": "#e5c98c22",
-        "pressed": "#e5c98c40",
+        "hover": "#ffffff30",
+        "pressed": "#547f7d30",
         "borderColor": "#4a5f73",
         "borderWidth": 0,
         "radius": 0,
@@ -1796,10 +1628,10 @@
           0
         ],
         "offset": [
-          40,
-          801,
-          240,
-          40
+          32,
+          716,
+          225,
+          44
         ],
         "alignment": [
           0,
@@ -1821,7 +1653,7 @@
         "floating": false,
         "deviceVisibility": "all",
         "text": "",
-        "texture": "Assets/Art/Button.svg",
+        "texture": "Assets/Art/PorcelainButton.png",
         "font": "",
         "rotation": 0,
         "scale": [
@@ -1881,10 +1713,10 @@
           0
         ],
         "offset": [
-          40,
-          801,
-          240,
-          40
+          32,
+          716,
+          225,
+          44
         ],
         "alignment": [
           0,
@@ -1922,12 +1754,12 @@
           0,
           0
         ],
-        "fontSize": 16,
-        "color": "#e9dbbf",
+        "fontSize": 14,
+        "color": "#345957",
         "background": "#00000000",
         "accent": "#589ad6",
-        "hover": "#e5c98c22",
-        "pressed": "#e5c98c40",
+        "hover": "#ffffff30",
+        "pressed": "#547f7d30",
         "borderColor": "#4a5f73",
         "borderWidth": 0,
         "radius": 0,
@@ -1967,10 +1799,10 @@
           0
         ],
         "offset": [
-          1000,
-          801,
-          240,
-          40
+          1023,
+          716,
+          225,
+          44
         ],
         "alignment": [
           0,
@@ -1992,7 +1824,7 @@
         "floating": false,
         "deviceVisibility": "all",
         "text": "",
-        "texture": "Assets/Art/Button.svg",
+        "texture": "Assets/Art/PorcelainButton.png",
         "font": "",
         "rotation": 0,
         "scale": [
@@ -2052,10 +1884,10 @@
           0
         ],
         "offset": [
-          1000,
-          801,
-          240,
-          40
+          1023,
+          716,
+          225,
+          44
         ],
         "alignment": [
           0,
@@ -2093,12 +1925,12 @@
           0,
           0
         ],
-        "fontSize": 16,
-        "color": "#e9dbbf",
+        "fontSize": 14,
+        "color": "#345957",
         "background": "#00000000",
         "accent": "#589ad6",
-        "hover": "#e5c98c22",
-        "pressed": "#e5c98c40",
+        "hover": "#ffffff30",
+        "pressed": "#547f7d30",
         "borderColor": "#4a5f73",
         "borderWidth": 0,
         "radius": 0,
@@ -2138,9 +1970,9 @@
           0
         ],
         "offset": [
-          430,
-          880,
-          420,
+          410,
+          877,
+          460,
           18
         ],
         "alignment": [
@@ -2179,8 +2011,8 @@
           0,
           0
         ],
-        "fontSize": 13,
-        "color": "#d1c3a8",
+        "fontSize": 12,
+        "color": "#526e66",
         "background": "#00000000",
         "accent": "#589ad6",
         "hover": "#365778",

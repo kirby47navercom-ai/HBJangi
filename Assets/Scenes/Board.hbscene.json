@@ -136,16 +136,160 @@
       "asset": "Assets/Models/Board.glb"
     },
     {
+      "id": "ScreenColor",
+      "name": "ScreenColor",
+      "kind": "skyAtmosphere",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true,
+      "components": [
+        {
+          "id": "component_0",
+          "name": "Transform",
+          "type": "Transform",
+          "properties": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "id": "component_1",
+          "name": "SkyAtmosphere",
+          "type": "SkyAtmosphere",
+          "properties": {
+            "enabled": true,
+            "priority": 0,
+            "topColor": [
+              0.61,
+              0.71,
+              0.66,
+              1
+            ],
+            "horizonColor": [
+              0.61,
+              0.71,
+              0.66,
+              1
+            ],
+            "groundColor": [
+              0.61,
+              0.71,
+              0.66,
+              1
+            ],
+            "exposure": 1,
+            "sunDiskScale": 0,
+            "sunHeightTint": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "SoftFill",
+      "name": "SoftFill",
+      "kind": "skyLight",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "visible": true,
+      "components": [
+        {
+          "id": "component_0",
+          "name": "Transform",
+          "type": "Transform",
+          "properties": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "id": "component_1",
+          "name": "SkyLight",
+          "type": "SkyLight",
+          "properties": {
+            "enabled": true,
+            "color": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "groundColor": [
+              0.8,
+              0.85,
+              0.8,
+              1
+            ],
+            "intensity": 0.8,
+            "indirectIntensity": 0.25,
+            "realTimeCapture": false,
+            "captureResolution": "128"
+          }
+        }
+      ]
+    },
+    {
       "id": "Camera",
       "name": "Camera",
       "kind": "camera",
       "position": [
         0,
-        18,
-        0
+        16,
+        7.4609
       ],
       "rotation": [
-        -90,
+        -65,
         0,
         0
       ],
@@ -416,7 +560,7 @@
           }
         },
         {
-          "id": "113f54c5-11d2-4f0e-b0ec-c6745453d21e",
+          "id": "8db664ba-a409-4eb5-a156-a458ad5c42a6",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -513,7 +657,7 @@
           }
         },
         {
-          "id": "78e57989-d200-4782-a0a7-5480af931ba0",
+          "id": "fc07f04f-14c2-457b-9fd3-6cc1068840ea",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -610,7 +754,7 @@
           }
         },
         {
-          "id": "8912bac1-06de-48b9-b775-625eaf5632d1",
+          "id": "158e4e1d-183d-47b0-8ead-1f1ccbac3920",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -707,7 +851,7 @@
           }
         },
         {
-          "id": "f7e81372-0654-43c4-9338-d91c8c5e6ff7",
+          "id": "02df96fc-3f39-476f-b257-4ac23c4b3f3e",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -804,7 +948,7 @@
           }
         },
         {
-          "id": "6c53b03d-07b6-41be-89a8-d45595bb39d6",
+          "id": "22db5910-e3b0-4695-b421-df92b02540d3",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -901,7 +1045,7 @@
           }
         },
         {
-          "id": "103ba4b0-b260-4781-a0e7-b35cc924d1a5",
+          "id": "5ddc7cb7-f2ba-4c71-99cf-7e36a9a9d460",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -998,7 +1142,7 @@
           }
         },
         {
-          "id": "cbd64efe-a023-4a08-abd1-135f157840ff",
+          "id": "194c7f42-f25a-4839-85b1-1074483b3e59",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -1095,7 +1239,7 @@
           }
         },
         {
-          "id": "77691f8d-f3dd-497a-a70e-bcc36d163265",
+          "id": "d77cf9ea-f5da-4b62-8373-85332c78f6d3",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -1192,7 +1336,7 @@
           }
         },
         {
-          "id": "cb4b7590-fe64-4416-aab0-cc15e0280ebc",
+          "id": "fcf9173c-3f05-41e8-b2d0-0e68d475e62c",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -1289,7 +1433,7 @@
           }
         },
         {
-          "id": "5b9b94ed-80ed-4b06-8225-87618ad6ea0c",
+          "id": "1383a776-b773-45c5-b9bf-56419f33b5dd",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -1386,7 +1530,7 @@
           }
         },
         {
-          "id": "2b286230-e2c6-4170-9ae9-4988b88e7d00",
+          "id": "5a0d4fb8-04fe-4ae1-815f-e7906b50fe83",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -1483,7 +1627,7 @@
           }
         },
         {
-          "id": "d22d6eff-5a85-49af-8688-ff53421eaf3c",
+          "id": "57d4d084-c018-471a-8705-e225487d9c8e",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -1580,7 +1724,7 @@
           }
         },
         {
-          "id": "63d3c1a6-bb5f-476a-8bed-b0e60d85ab57",
+          "id": "d437172a-38d7-4c2a-9359-8b69b72824d7",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -1677,7 +1821,7 @@
           }
         },
         {
-          "id": "0c1534a7-a89d-4663-b0e0-b9513f1cdb1e",
+          "id": "37b6cb85-03c8-40c9-8fb2-058c29e5bd63",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -1774,7 +1918,7 @@
           }
         },
         {
-          "id": "9b5fe417-6512-4c13-aa5b-360d0018363c",
+          "id": "0fdcd8d9-631a-47cb-a544-0f6937e56b56",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -1871,7 +2015,7 @@
           }
         },
         {
-          "id": "b104c306-27cb-4d2a-b609-ca1d43e62c91",
+          "id": "58d46fd8-566a-49a1-9481-6430334a6068",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -1968,7 +2112,7 @@
           }
         },
         {
-          "id": "3d3a311c-9575-4175-9132-bc262efbe5d7",
+          "id": "77968931-c050-4958-8912-b6d5454a03bf",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -2065,7 +2209,7 @@
           }
         },
         {
-          "id": "b39bc07b-f240-4781-b232-70f7df3977a1",
+          "id": "a28604a8-9a03-48d9-a885-d0465df99f82",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -2162,7 +2306,7 @@
           }
         },
         {
-          "id": "e41baa2e-83c2-40e6-be3b-bd22750952a9",
+          "id": "62c4633e-904c-4726-9ffb-c05de2043bde",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -2259,7 +2403,7 @@
           }
         },
         {
-          "id": "34c32cff-47ce-4f1f-9b4c-fa3de27bfe64",
+          "id": "597e835c-d920-4ede-b4b8-894326b7311a",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -2356,7 +2500,7 @@
           }
         },
         {
-          "id": "4fb8fa5c-7de1-4a6f-afd2-bf93d1322271",
+          "id": "1c9a1527-c08c-43cc-83a5-1c34630dd9f2",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -2453,7 +2597,7 @@
           }
         },
         {
-          "id": "e59e1677-8d3c-4635-9caa-d7253576dd7b",
+          "id": "9c1b247e-fab0-4498-9a1b-f53c0985dffa",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -2550,7 +2694,7 @@
           }
         },
         {
-          "id": "13dd7c99-cab0-4e72-9449-6223eec2b000",
+          "id": "b466d2e5-9b67-4d19-9b7e-a755e8aabd19",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -2647,7 +2791,7 @@
           }
         },
         {
-          "id": "e5a932ab-8070-417b-b8c7-71af65251895",
+          "id": "2f07d321-117a-44fa-ad27-cd559bfacacf",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -2744,7 +2888,7 @@
           }
         },
         {
-          "id": "749f172b-c19c-4264-993e-a84c75c18e6b",
+          "id": "8c7d6127-6695-4582-9548-66eef864a774",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -2841,7 +2985,7 @@
           }
         },
         {
-          "id": "1478c82a-bd9c-43cc-a5df-13d692067590",
+          "id": "017bc3de-eb76-40c5-9c8d-1776f342b1b1",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -2938,7 +3082,7 @@
           }
         },
         {
-          "id": "df5cb17a-4734-42a8-8136-08e095bf0d07",
+          "id": "4f66a3fb-8ab6-44e0-a044-2a390a3ebe22",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -3035,7 +3179,7 @@
           }
         },
         {
-          "id": "8fe0badf-8a26-4f20-a70a-e2cdd74e7b3a",
+          "id": "50c57c46-7d9f-4525-966d-db3fbe3b10a5",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -3132,7 +3276,7 @@
           }
         },
         {
-          "id": "bc1d9ad8-cffe-49ac-b488-2fc0d6b84543",
+          "id": "dc433bf6-216f-4794-a869-365b6eabe8ea",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -3229,7 +3373,7 @@
           }
         },
         {
-          "id": "7f075a84-bfe9-4f89-9426-41c97f74d341",
+          "id": "0e87f315-11d9-4391-a7e1-4dcc187c9b65",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -3326,7 +3470,7 @@
           }
         },
         {
-          "id": "c9825160-2178-48ed-8263-5b98287ae6a5",
+          "id": "54759d54-a1f0-4636-8e81-76e8aadd3966",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -3423,7 +3567,7 @@
           }
         },
         {
-          "id": "c4a5ea9b-7668-4e22-9743-f8236e85caf2",
+          "id": "99271493-0eec-454b-8b8c-bdf6f3d1f81f",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -3520,7 +3664,7 @@
           }
         },
         {
-          "id": "9c8f1a7d-1e25-47f5-9dca-44f9233e316a",
+          "id": "24b8d015-e748-4f27-9a63-3e334d802763",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -3617,7 +3761,7 @@
           }
         },
         {
-          "id": "57061b45-05b0-4456-a1e6-8698407c8c13",
+          "id": "04cff59e-41d4-41fb-91df-89fcb4300856",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -3714,7 +3858,7 @@
           }
         },
         {
-          "id": "61a30654-d0f5-4076-ac8a-06a8366024ba",
+          "id": "51c746e2-c743-4bcd-bc9b-006334423f55",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -3811,7 +3955,7 @@
           }
         },
         {
-          "id": "6e6e1437-476b-48a3-924d-3c89e6f97634",
+          "id": "da0b4577-0a4c-4f06-8c3f-164130e92752",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -3908,7 +4052,7 @@
           }
         },
         {
-          "id": "edc3ede8-8b7d-4a2b-b476-c0ffec1ff407",
+          "id": "1912c7fe-a817-4c67-8848-d057a2182f0b",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -4005,7 +4149,7 @@
           }
         },
         {
-          "id": "c9614965-59f2-4e58-8f52-326af96c42b1",
+          "id": "f352d114-5284-4101-9fe9-8b9d42190f33",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -4102,7 +4246,7 @@
           }
         },
         {
-          "id": "60647160-53ca-4eac-93cf-313b0fc1b7d4",
+          "id": "f87d88f7-771e-4f37-b06d-b7320ccf4a95",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -4199,7 +4343,7 @@
           }
         },
         {
-          "id": "29d54eee-78a9-4ba6-9dc5-cbcc30ebc6a5",
+          "id": "fcf25965-b87b-4116-a830-ee0113c102b2",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -4296,7 +4440,7 @@
           }
         },
         {
-          "id": "26943c16-35ee-49e3-84a7-dc7bd66d2a18",
+          "id": "57aa6d11-9490-435d-8b43-7a3adde06606",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -4393,7 +4537,7 @@
           }
         },
         {
-          "id": "68263ad8-6233-47a1-abbd-8518935aa953",
+          "id": "b2d5e4a9-0bcb-4434-ba3c-3e53f10a1584",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -4490,7 +4634,7 @@
           }
         },
         {
-          "id": "5dba8e2d-913c-42a6-9fb6-4ceca8246eb6",
+          "id": "ccad7fb4-0219-43b7-aec3-49636146925c",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -4587,7 +4731,7 @@
           }
         },
         {
-          "id": "79c5cc9e-9849-42ad-ab69-d6490783917f",
+          "id": "7195671a-1611-4a6e-bdc1-fdaf56e6b849",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -4684,7 +4828,7 @@
           }
         },
         {
-          "id": "d93f3033-d48f-4e90-897a-22bbb46dabd2",
+          "id": "546ce3b8-a5ec-4dfa-b775-0d7c369d30e8",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -4781,7 +4925,7 @@
           }
         },
         {
-          "id": "23e2f18d-85f3-4b3b-ba67-5f45d72e287b",
+          "id": "b672ea66-d6c1-4b07-b67c-7aac65e223de",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -4878,7 +5022,7 @@
           }
         },
         {
-          "id": "152e20f8-4b03-4165-ad7c-6d45113131e6",
+          "id": "7a1f4809-70bb-49a1-8d7c-d350ff499012",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -4975,7 +5119,7 @@
           }
         },
         {
-          "id": "101e5de8-6845-4cab-ac55-f7098f0f2309",
+          "id": "73f5975e-ec32-41d5-83b2-e10fd2ba2900",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -5072,7 +5216,7 @@
           }
         },
         {
-          "id": "e6ab81d4-c362-4e55-b736-c1e8382c3de6",
+          "id": "6a714248-e678-4623-b8b2-c0311c385735",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -5169,7 +5313,7 @@
           }
         },
         {
-          "id": "00044c57-b706-4d35-bbf3-1047b4c02058",
+          "id": "cb4ed0f5-86b8-47a6-8e23-6c5437008237",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -5266,7 +5410,7 @@
           }
         },
         {
-          "id": "5a783dcb-2acd-466e-b576-15c8b0614ccc",
+          "id": "417d4cba-c0ec-4db6-91c4-7884eb5070ba",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -5363,7 +5507,7 @@
           }
         },
         {
-          "id": "28e59202-ac72-4fec-8873-e6317ceb410b",
+          "id": "ec53e50a-f0db-4325-9d82-0d0eb2622b9d",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -5460,7 +5604,7 @@
           }
         },
         {
-          "id": "c3d73e38-2e07-454f-b776-c2b3c0490077",
+          "id": "33b2af55-452d-4421-89ec-eced79373b35",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -5557,7 +5701,7 @@
           }
         },
         {
-          "id": "693a1917-066c-4934-9c48-92630bf1978a",
+          "id": "9d046540-d654-4608-a8b4-b46ef5fa9909",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -5654,7 +5798,7 @@
           }
         },
         {
-          "id": "2d448506-adc0-4c6b-9374-684fffe3a16a",
+          "id": "ba7193a2-71f2-431b-8a30-e8869b1dc26a",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -5751,7 +5895,7 @@
           }
         },
         {
-          "id": "fbe0f109-ab6c-4541-9318-2e176d3f746d",
+          "id": "735e5f1f-5dd5-451f-b6f5-0c00611d4822",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -5848,7 +5992,7 @@
           }
         },
         {
-          "id": "93e809f7-ffac-474d-a2d2-f3aad80bdf89",
+          "id": "308f78ff-3efe-45fd-8c3f-eb4b9fc101fb",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -5945,7 +6089,7 @@
           }
         },
         {
-          "id": "b32c9e97-9c29-49b9-bafe-fe729b3b7cf9",
+          "id": "2cb71863-9453-4f5e-8bc5-82868487eb2f",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -6042,7 +6186,7 @@
           }
         },
         {
-          "id": "1609cf06-a79d-42a2-8c5f-2a36be67f2fe",
+          "id": "cd4c5070-9fbb-464c-a78f-57d61d76217f",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -6139,7 +6283,7 @@
           }
         },
         {
-          "id": "032f9c6c-2699-4efe-b7ff-c9cd823d4ef0",
+          "id": "57a9b547-88b4-4d64-8909-47fc016a7cf4",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -6236,7 +6380,7 @@
           }
         },
         {
-          "id": "0ff261d0-d656-4670-84b0-e9bb727c1e72",
+          "id": "bc469759-215a-4d32-844e-91e348fa96f1",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -6333,7 +6477,7 @@
           }
         },
         {
-          "id": "ac76599a-e901-4f55-b702-ea87aab42b94",
+          "id": "14c90dd2-77c1-4134-9f3d-7ad1b9ce7660",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -6430,7 +6574,7 @@
           }
         },
         {
-          "id": "9b822de7-9570-4c77-bcf9-2d2265dbffd2",
+          "id": "145c31c4-482c-4013-8fd3-ea1521728409",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -6527,7 +6671,7 @@
           }
         },
         {
-          "id": "75266539-3b27-4e81-bd25-73d4f6a7b7d0",
+          "id": "f32d3d49-326a-467a-80ae-20dc19e10341",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -6624,7 +6768,7 @@
           }
         },
         {
-          "id": "3a932983-e9b5-4ab3-9af4-9c888b22a8c4",
+          "id": "4f99e0e6-2ba6-43e7-a9fd-83db7d3e2d0a",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -6721,7 +6865,7 @@
           }
         },
         {
-          "id": "13ce183a-153b-4772-8c0b-cb209df0d4c6",
+          "id": "cd20f3c1-94dd-4f5b-b3a3-230f2be7dc21",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -6818,7 +6962,7 @@
           }
         },
         {
-          "id": "66ca51ae-66a8-44dc-832b-104b5a569f5a",
+          "id": "3d9d4b16-bd1b-4d96-85b7-2aec97a76808",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -6915,7 +7059,7 @@
           }
         },
         {
-          "id": "1233e4cc-1c1a-4270-8ea5-0249b285e421",
+          "id": "0912ffc2-8397-40e0-aca1-4eee18dee18b",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -7012,7 +7156,7 @@
           }
         },
         {
-          "id": "c04bfc77-4843-43f3-afce-2f18dea7f004",
+          "id": "e7c5b068-fd6b-4bf8-8c16-4d1f9e150704",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -7109,7 +7253,7 @@
           }
         },
         {
-          "id": "4c7315c9-d968-4b79-a544-184c90b552f3",
+          "id": "dc82658b-6a1b-483d-ba74-2e3020623bdb",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -7206,7 +7350,7 @@
           }
         },
         {
-          "id": "446c82f7-a272-42e7-8f89-9995f74ce94c",
+          "id": "c41e0fdc-506a-48a1-9646-c5f39572670f",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -7303,7 +7447,7 @@
           }
         },
         {
-          "id": "5d3cfbd0-6533-4f32-aea5-4f63ec91d36c",
+          "id": "aa14eef7-194c-45a6-b815-cad46acabc2e",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -7400,7 +7544,7 @@
           }
         },
         {
-          "id": "ee621825-535e-4d34-9899-fc30523196ea",
+          "id": "d5090fda-dd08-484f-a328-4c3b96d5a319",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -7497,7 +7641,7 @@
           }
         },
         {
-          "id": "cdbfb393-6282-4f35-acd0-433218959bc4",
+          "id": "59093bfa-362b-4829-8042-0a08f289a2ae",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -7594,7 +7738,7 @@
           }
         },
         {
-          "id": "cef6ebdf-16d0-4121-83b9-9ca57dee1fba",
+          "id": "52b2b561-fb95-4741-b67a-99061b9176a3",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -7691,7 +7835,7 @@
           }
         },
         {
-          "id": "35148243-e4f0-405e-a717-4aa9ee841517",
+          "id": "0d22860e-b83a-43b4-b002-baacc3545b62",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -7788,7 +7932,7 @@
           }
         },
         {
-          "id": "193d1ca0-e0bf-47c7-8f93-8715964cb11c",
+          "id": "9d6ad05e-474a-4883-8dfe-6fde63e8fe94",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -7885,7 +8029,7 @@
           }
         },
         {
-          "id": "3e56cdd9-3216-4004-ac03-249b1035764a",
+          "id": "efc1b52f-cf4f-4d46-8703-f18272237100",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -7982,7 +8126,7 @@
           }
         },
         {
-          "id": "f3e94251-4598-4f32-a438-d278247bfe16",
+          "id": "ee108ce3-3bde-4c1e-ae2b-c88100a15a77",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -8079,7 +8223,7 @@
           }
         },
         {
-          "id": "18ac2d4f-189e-4e89-bc41-673abf80038a",
+          "id": "4713e8ef-aeb9-4813-a9da-88c7f607d8b2",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -8176,7 +8320,7 @@
           }
         },
         {
-          "id": "16a60716-d751-4f7c-8bb8-28c54253a7ee",
+          "id": "0ca65762-04a7-4537-adcd-e0864f67dc73",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -8273,7 +8417,7 @@
           }
         },
         {
-          "id": "a743a673-13a1-4733-83bc-148542d821ca",
+          "id": "e4496347-f7aa-42ff-8863-02feb58c8c4c",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -8370,7 +8514,7 @@
           }
         },
         {
-          "id": "77900cf4-d461-4840-a1a2-ad586f676675",
+          "id": "28340bd1-ab2b-4ceb-a765-7884c6903deb",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -8467,7 +8611,7 @@
           }
         },
         {
-          "id": "4a2b4845-4e21-4447-aa10-3698a1d88dfa",
+          "id": "c640dc52-11e4-4e43-a874-0b8b80c87f40",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -8564,7 +8708,7 @@
           }
         },
         {
-          "id": "a99d8904-89a7-4dde-a063-3fe8b2e76518",
+          "id": "8ba62965-5f32-4779-a2bd-427f214aa1b9",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -8661,7 +8805,7 @@
           }
         },
         {
-          "id": "0ca08333-19aa-4b7e-b378-01e5e9b705e1",
+          "id": "35a0e6ee-48a0-49d3-a8c6-7bf697ffc589",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -8758,7 +8902,7 @@
           }
         },
         {
-          "id": "ccb297a2-ee5f-483a-a9cd-4a102acc3e35",
+          "id": "977ee97c-413c-4b2d-8c82-e3fe4abc16e1",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -8855,7 +8999,7 @@
           }
         },
         {
-          "id": "7f4c0bca-d7da-4fb0-902d-b214efb03925",
+          "id": "d61055c7-7cc6-41d1-b465-ca40b3e1844d",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -8952,7 +9096,7 @@
           }
         },
         {
-          "id": "e96eeb19-2e96-492a-b24d-cebb67698257",
+          "id": "adab9930-f99d-4c21-a208-83c6e48c1f1e",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -9049,7 +9193,7 @@
           }
         },
         {
-          "id": "a6927f27-c056-4172-b875-152ae3bfdfbb",
+          "id": "a46c7379-cefe-45ef-b1b7-e532ed98fd95",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -9146,7 +9290,7 @@
           }
         },
         {
-          "id": "96c23ef2-36ef-4ddc-8f39-2aebd0fcdbc5",
+          "id": "6b260c9f-bee9-43da-9167-e09c8bff5d5b",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -9243,7 +9387,7 @@
           }
         },
         {
-          "id": "dde5e566-43a4-49a7-b1d9-5103105aa577",
+          "id": "f343488b-0983-4768-8556-6d544f329d2c",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -9340,7 +9484,7 @@
           }
         },
         {
-          "id": "577a98ce-bbda-4897-9a21-47689f3c0c4d",
+          "id": "7421aff8-d642-457b-875f-f38ba12836fb",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -9437,7 +9581,7 @@
           }
         },
         {
-          "id": "248d9c2b-b832-4ce0-b2af-573ed436bab5",
+          "id": "2e87541a-5afa-4171-9b3c-69859569e855",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -9534,7 +9678,7 @@
           }
         },
         {
-          "id": "3d6876c1-50f9-4c8e-8d2b-a842c6d12693",
+          "id": "d8ba790c-2145-438d-a4a6-601061658aca",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -9631,7 +9775,7 @@
           }
         },
         {
-          "id": "254df210-9136-4a89-b2c2-74e514f2cb56",
+          "id": "c397bdaf-9dd2-4803-89a2-8798646efffa",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -9728,7 +9872,7 @@
           }
         },
         {
-          "id": "e93a3c3c-3233-49d1-a599-b4b5d5d06b21",
+          "id": "cbcb5195-f4a9-4373-b3b5-a6795c15a5f2",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -9825,7 +9969,7 @@
           }
         },
         {
-          "id": "4339b3f4-52fe-4846-b527-d735289385a2",
+          "id": "c46ab718-0035-4ff9-af05-84d72ff084a8",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -9922,7 +10066,7 @@
           }
         },
         {
-          "id": "9072c0af-194e-4d73-9da6-405f7b1ca2bf",
+          "id": "b9ea97e1-e804-423a-b63f-3133ff9090f8",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -10019,7 +10163,7 @@
           }
         },
         {
-          "id": "5d0c0cde-aa9f-4d16-bc81-5ae75f437085",
+          "id": "cc364acc-d7a3-4715-9d1f-960ddb0016bb",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -10116,7 +10260,7 @@
           }
         },
         {
-          "id": "701e62cd-bdb6-429b-ae3b-366fca2d0c8f",
+          "id": "16d8fa89-fd30-4165-b958-67f0c38327be",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -10213,7 +10357,7 @@
           }
         },
         {
-          "id": "20446d15-abef-48af-a458-d9d754af2368",
+          "id": "6136857d-2260-4dfc-91f0-d117553dc1a5",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -10310,7 +10454,7 @@
           }
         },
         {
-          "id": "6ad6d20c-25a9-4ce2-a3a4-a25dc1f98ba9",
+          "id": "26c09835-ae57-4a32-a27b-88afafbff2e0",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -10407,7 +10551,7 @@
           }
         },
         {
-          "id": "de4e4596-1a5d-4a18-8047-df17e7e6ce2f",
+          "id": "ee090f03-4f6d-4d6c-8748-5caaef3ef17b",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -10504,7 +10648,7 @@
           }
         },
         {
-          "id": "cde409dd-fdb9-4ec6-a414-45d89a7f2d0d",
+          "id": "a14e62ca-8cc5-4610-8a92-767ed14a01fa",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -10601,7 +10745,7 @@
           }
         },
         {
-          "id": "5289f115-9874-4b5b-b30f-da87cc48ce10",
+          "id": "1b8ea4c3-b0c7-470a-8b45-6786ef5ddb21",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -10698,7 +10842,7 @@
           }
         },
         {
-          "id": "c63fcf80-e68c-4eae-811e-da07a2eef7aa",
+          "id": "3c4b83f6-8506-47c8-88f9-1b1365b8cde7",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -10795,7 +10939,7 @@
           }
         },
         {
-          "id": "a3331e34-c4c7-4d6c-9ed1-7f23e65a71df",
+          "id": "6be59804-e842-4366-a3d4-20638bb5a3ba",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -10892,7 +11036,7 @@
           }
         },
         {
-          "id": "6f72a825-9855-49b7-a0fb-d7df978f0978",
+          "id": "88464df2-2454-4a9c-b2ef-8a98360ecb93",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -10989,7 +11133,7 @@
           }
         },
         {
-          "id": "94a2cc79-046e-4328-ada8-4d4729d44282",
+          "id": "82b423b1-f9fc-4e3c-bf04-ae6a177ec024",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -11086,7 +11230,7 @@
           }
         },
         {
-          "id": "c84d5aaf-6dc9-4b37-9f5f-c257ec8c0b34",
+          "id": "f4042d81-2a4e-45ec-a004-0a0f71621f8e",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -11183,7 +11327,7 @@
           }
         },
         {
-          "id": "9aa1bf1c-5d25-4bb6-8f10-083f43e79725",
+          "id": "9f4d94c6-4ec9-4f4b-a800-05d065170e74",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -11280,7 +11424,7 @@
           }
         },
         {
-          "id": "93b2bd07-0327-4e21-99ca-7c59723e5ead",
+          "id": "c962e39a-445a-4961-b457-5431c72a7dc6",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -11377,7 +11521,7 @@
           }
         },
         {
-          "id": "10b91654-1ac6-46b5-b1b4-af8b06417b91",
+          "id": "3d382c83-71d3-4345-b613-8ba4cc17ef3d",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -11474,7 +11618,7 @@
           }
         },
         {
-          "id": "46661a95-d406-40e0-87b1-9ccf8d80484e",
+          "id": "a20b1919-91cd-4c87-aad1-9d0075368d4f",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -11571,7 +11715,7 @@
           }
         },
         {
-          "id": "5719a049-b872-48c2-8ff2-33bfb42ccd69",
+          "id": "29c5227c-1418-40cc-8b39-0f95b25d488e",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -11668,7 +11812,7 @@
           }
         },
         {
-          "id": "15a17499-8767-4685-a705-e26d5af74bfb",
+          "id": "b6f13b41-5577-4667-a30a-3c77ed69c4d6",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -11765,7 +11909,7 @@
           }
         },
         {
-          "id": "2dd3d091-173e-47eb-943f-c9708264c19d",
+          "id": "97bed005-5aa8-4afc-9cdf-5854fdf6dd90",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -11862,7 +12006,7 @@
           }
         },
         {
-          "id": "b3759298-e396-4b21-a0ea-219127ab55cf",
+          "id": "b941df02-578d-4811-bb27-f69e38bc4bf1",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -11959,7 +12103,7 @@
           }
         },
         {
-          "id": "b1c0907b-91ca-45fe-9956-69a5b4b4d229",
+          "id": "cd56503b-9475-41ba-a8aa-a8ab512cdbf7",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -12056,7 +12200,7 @@
           }
         },
         {
-          "id": "137fcd72-c00d-4c47-a075-451a0f4fef78",
+          "id": "6de633bf-8759-439f-9236-67733578a293",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -12153,7 +12297,7 @@
           }
         },
         {
-          "id": "d8c37c16-7fa8-4a66-9e4c-2e6756ba29a3",
+          "id": "3c62b44e-1778-413f-8350-b6b086882800",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -12250,7 +12394,7 @@
           }
         },
         {
-          "id": "20b612d3-0ba7-47e2-880a-4e55958b7684",
+          "id": "26ff762c-28f3-4076-b635-b2686849525d",
           "name": "PooledActor",
           "type": "PooledActor",
           "properties": {
@@ -12279,7 +12423,8 @@
     "cloudDensity": 0.55,
     "sunAzimuth": -30,
     "sunElevation": 50,
-    "fogAmount": 0.25
+    "fogAmount": 0.25,
+    "mode": "actors"
   },
   "runtime": {
     "dimension": "3d",

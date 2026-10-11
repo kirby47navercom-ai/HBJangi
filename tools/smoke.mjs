@@ -23,12 +23,14 @@ try{
   const click=async name=>clickPoint(await evaluate(`(()=>{const r=document.querySelector('[data-widget-name=${name}]').getBoundingClientRect();return {x:r.x+r.width/2,y:r.y+r.height/2}})()`));
   const actor=id=>evaluate(`window.hbPlayerDebug.inspect().objects.find(o=>o.id===${JSON.stringify(id)})`);
   const clickCell=async cell=>{
-    const point=await evaluate(`(()=>{const r=document.querySelector('#game-canvas').getBoundingClientRect();return {x:r.x+r.width/2+${cell%9-4}*r.height/13.6,y:r.y+r.height/2+${Math.floor(cell/9)-4.5}*r.height/13.6}})()`);
+    const point=await evaluate(`(()=>{const r=document.querySelector('#game-canvas').getBoundingClientRect();return {x:r.x+r.width/2+${cell%9-4}*r.height/13.6,y:r.y+r.height/2+${(Math.floor(cell/9)-4.5)*Math.cos(25*Math.PI/180)-.15*Math.sin(25*Math.PI/180)}*r.height/13.6}})()`);
     await clickPoint(point);
   };
   await fs.mkdir(path.join(root,'docs/qa'),{recursive:true});await pause(400);
   const initial=await cdp('Page.captureScreenshot',{format:'png'});await fs.writeFile(path.join(root,'docs/qa/initial-3d.png'),Buffer.from(initial.data,'base64'));
-  const initialState=await evaluate('window.hbPlayerDebug.inspect()');assert.equal(initialState.camera.projection,'OrthographicCamera');assert(!initialState.objects.some(o=>['Duel','Cosmos'].includes(o.id)),'no decorative background actors');assert.equal((await actor('Camera')).rotation[0],-90);
+  const initialState=await evaluate('window.hbPlayerDebug.inspect()');assert.equal(initialState.camera.projection,'OrthographicCamera');assert(!initialState.objects.some(o=>['Duel','Cosmos'].includes(o.id)),'no decorative background actors');assert.equal((await actor('Camera')).rotation[0],-65);
+  assert(await evaluate("document.querySelector('[data-widget-name=UndoFrame]').querySelector('img')?.src.includes('PorcelainButton.png')"),'generated PNG used by live HUD');
+  assert.equal(initialState.objects.filter(o=>o.id==='ScreenColor').length,1,'constant color environment');
   assert.deepEqual((await actor('Blue1_0')).position,[0,0,3.5]);
   for(const o of initialState.objects.filter(o=>/^(Blue|Red)[1-7]_/.test(o.id)))assert.equal(o.rotation[1],o.id.startsWith('Red')?180:0,'pieces face their owners');
   await click('BlueSetup');await until(async()=>/馬象 \/ 馬象/.test(await text('BlueSetup')),'formation');
@@ -53,6 +55,6 @@ try{
   assert.equal(errors.length,0,JSON.stringify(errors));
   await evaluate("window.chrome.webview.postMessage('hbengine.ready.player')");await until(()=>ended!==undefined,'player exit');assert.equal(ended,0);
   const shell=JSON.parse(await fs.readFile(path.join(work,'shell.json'),'utf8'));await assert.rejects(fetch('http://127.0.0.1:'+shell.port+'/api/session',{signal:AbortSignal.timeout(1500)}));
-  await fs.writeFile(path.join(root,'docs/qa/acceptance.json'),JSON.stringify({passed:true,build:built.id,checks:['native BeginPlay','32 modeled pieces facing respective owners','embedded Hanja textures','board-only art and native HUD','straight overhead orthographic camera','no decorative background actors','formation','3D pointer ray picking','3D legal rings','move and turn','undo','pass','draw','confirmed reset','arrow keys and Enter move','1280x900 and 960x720 bounds','no runtime exceptions','clean exit and server shutdown'],errors},null,2));
+  await fs.writeFile(path.join(root,'docs/qa/acceptance.json'),JSON.stringify({passed:true,build:built.id,checks:['native BeginPlay','32 modeled pieces facing respective owners','embedded Hanja textures','board-only art and native HUD','aligned 65 degree camera with visible piece and board sides','no decorative background actors','formation','3D pointer ray picking','3D legal rings','move and turn','undo','pass','draw','confirmed reset','arrow keys and Enter move','1280x900 and 960x720 bounds','no runtime exceptions','clean exit and server shutdown'],errors},null,2));
   console.log('PASS: packaged HBEngine Player interaction, rendering, resize, cleanup');
 }finally{ws?.close();if(ended===undefined)child.kill();}

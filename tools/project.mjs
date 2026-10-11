@@ -19,26 +19,24 @@ if(process.argv.includes('--generate')){
   const add=(type,name,x,y,w,h,props={},event)=>{
     const n=createWidgetNode(type,name);n.name=name;n.slot.offset=[x,y,w,h];Object.assign(n.properties,{color:'#deded6',fontSize:20},props);if(event)n.events.click=event;widget.nodes.push(n);return n;
   };
-  add('Image','BlueBanner',35,27,252,82,{texture:'Assets/Art/Banner.svg'});
-  add('Image','RedBanner',993,27,252,82,{texture:'Assets/Art/Banner.svg'});
-  add('Text','BlueName',59,35,215,36,{text:'楚  ·  청연',fontSize:27,color:'#d0e7e6'});
-  add('Text','RedName',1016,35,215,36,{text:'漢  ·  홍련',fontSize:27,color:'#f0d1bd'});
-  add('Text','BlueScore',62,76,204,24,{text:'楚',fontSize:16,color:'#b8c9c4'});
-  add('Text','RedScore',1019,76,204,24,{text:'漢',fontSize:16,color:'#c9b8a0'});
-  add('Text','Title',480,13,320,34,{text:'將 棋',fontSize:26,color:'#ecdfbf',align:'center'});
-  add('Image','TurnBanner',495,54,290,44,{texture:'Assets/Art/Turn.svg'});
-  add('Text','Status',505,60,270,30,{text:'초의 차례',fontSize:22,color:'#ecdfbf',align:'center'});
-  add('Text','MoveCount',1110,852,130,22,{text:'0 수 진행',fontSize:14,color:'#e6dac4',align:'right'});
-  add('Image','NoticeBanner',35,687,245,94,{texture:'Assets/Art/Notice.svg'});
-  add('Text','Notice',54,706,205,65,{text:'',fontSize:17,color:'#e6dfcf'});
+  add('Text','BlueSeal',72,103,90,95,{text:'楚',fontSize:64,color:'#547f7d'});
+  add('Text','RedSeal',1115,103,90,95,{text:'漢',fontSize:64,color:'#a36560'});
+  add('Text','BlueName',75,213,140,36,{text:'청 연',fontSize:23,color:'#345d59'});
+  add('Text','RedName',1066,213,140,36,{text:'홍 련',fontSize:23,color:'#985e58',align:'right'});
+  add('Text','BlueScore',76,255,140,24,{text:'楚',fontSize:15,color:'#456b65'});
+  add('Text','RedScore',1066,255,140,24,{text:'漢',fontSize:15,color:'#886e60',align:'right'});
+  add('Text','Title',490,20,300,42,{text:'청연 · 홍련',fontSize:29,color:'#365c58',align:'center'});
+  add('Text','Status',440,69,400,30,{text:'초의 차례',fontSize:19,color:'#456c62',align:'center'});
+  add('Text','MoveCount',1000,854,230,22,{text:'0 수 진행',fontSize:14,color:'#526e66',align:'right'});
+  add('Text','Notice',40,595,210,100,{text:'',fontSize:16,color:'#526e66'});
   const button=(name,text,x,y,w,h,event)=>{
-    add('Image',name+'Frame',x,y,w,h,{texture:'Assets/Art/Button.svg',imageFit:'fill'});
-    return add('Button',name,x,y,w,h,{text,fontSize:16,color:'#e9dbbf',align:'center',background:'#00000000',hover:'#e5c98c22',pressed:'#e5c98c40',borderWidth:0,radius:0},event);
+    add('Image',name+'Frame',x,y,w,h,{texture:'Assets/Art/PorcelainButton.png',imageFit:'fill'});
+    return add('Button',name,x,y,w,h,{text,fontSize:14,color:'#345957',align:'center',background:'#00000000',hover:'#ffffff30',pressed:'#547f7d30',borderWidth:0,radius:0},event);
   };
-  button('Undo','무르기',340,826,130,44,'Undo');button('Pass','한 수 쉼',483,826,146,44,'Pass');
-  button('Draw','빅장 무승부',642,826,155,44,'Draw');button('New','새 대국',810,826,130,44,'New');
-  button('BlueSetup','초 배치',40,801,240,40,'BlueSetup');button('RedSetup','한 배치',1000,801,240,40,'RedSetup');
-  add('Text','Help',430,880,420,18,{text:'방향키 · Enter 또는 마우스로 두세요.',fontSize:13,color:'#d1c3a8',align:'center'});
+  button('Undo','무르기',365,809,130,48,'Undo');button('Pass','한 수 쉼',505,809,130,48,'Pass');
+  button('Draw','빅장 무승부',645,809,140,48,'Draw');button('New','새 대국',795,809,130,48,'New');
+  button('BlueSetup','초 배치',32,716,225,44,'BlueSetup');button('RedSetup','한 배치',1023,716,225,44,'RedSetup');
+  add('Text','Help',410,877,460,18,{text:'방향키 · Enter 또는 마우스로 두세요.',fontSize:12,color:'#526e66',align:'center'});
   assert(validWidgetAsset(widget),'widget validation');await write('Assets/UI/W_Janggi.hbwidget.json',widget);
   const header=await fs.readFile(path.join(root,'Source/JanggiGame.h'),'utf8'),source=await fs.readFile(path.join(root,'Source/JanggiGame.cpp'),'utf8');
   const bp=createAsset('blueprint','BP_Janggi');bp.components=[];bp.variables=[];bp.settings.parentClass='JanggiGame';bp.native={...parseNativeHeader(header),header,source,headerPath:'Source/JanggiGame.h',sourcePath:'Source/JanggiGame.cpp'};bp.nodes=[];bp.edges=[];
@@ -52,7 +50,11 @@ if(process.argv.includes('--generate')){
   const object=(id,kind,pos=[0,0,0],asset)=>{const o={id,name:id,kind,position:pos,rotation:[0,0,0],scale:[1,1,1],visible:true,components:defaultsForObject(kind),...asset?{asset}:{}};scene.objects.push(o);return o;};
   object('Janggi','empty').blueprintAsset='Assets/Blueprints/BP_Janggi.hbblueprint.json';
   object('Board','model',[0,0,0],'Assets/Models/Board.glb');
-  const camera=object('Camera','camera',[0,18,0]);camera.rotation=[-90,0,0];Object.assign(camera.components.find(c=>c.type==='Camera').properties,{main:true,projection:'orthographic',orthographicSize:6.8});
+  // A constant environment color, without sky gradients, scenery, or illustrations.
+  scene.environment.mode='actors';
+  const matte=object('ScreenColor','skyAtmosphere');Object.assign(matte.components.find(c=>c.type==='SkyAtmosphere').properties,{topColor:[.61,.71,.66,1],horizonColor:[.61,.71,.66,1],groundColor:[.61,.71,.66,1],sunDiskScale:0,sunHeightTint:false,exposure:1});
+  const ambient=object('SoftFill','skyLight');Object.assign(ambient.components.find(c=>c.type==='SkyLight').properties,{color:[1,1,1,1],groundColor:[.8,.85,.8,1],intensity:.8,indirectIntensity:.25,realTimeCapture:false});
+  const camera=object('Camera','camera',[0,16,7.4609]);camera.rotation=[-65,0,0];Object.assign(camera.components.find(c=>c.type==='Camera').properties,{main:true,projection:'orthographic',orthographicSize:6.8});
   const key=object('KeyLight','directionalLight',[1,12,6]);key.rotation=[-55,-30,0];Object.assign(key.components.find(c=>c.type==='DirectionalLight').properties,{intensity:2.3,color:[1,.91,.78,1],castShadow:true});
   const fill=object('FillLight','directionalLight',[-5,7,-3]);fill.rotation=[-35,140,0];Object.assign(fill.components.find(c=>c.type==='DirectionalLight').properties,{intensity:1.3,color:[.66,.78,1,1],castShadow:false});
   const pooled=(o,active)=>{addSceneComponent(o,'PooledActor');o.components.find(c=>c.type==='PooledActor').properties.initiallyActive=active;return o;};
@@ -63,11 +65,6 @@ if(process.argv.includes('--generate')){
   let id=randomUUID();try{id=JSON.parse(await fs.readFile(path.join(root,'HBJangi.hbproject'),'utf8')).id;}catch(e){if(e.code!=='ENOENT')throw e;}
   await write('HBJangi.hbproject',{version:1,engine:'HBEngine',engineVersion:'0.1.0',id,name:'HBJangi',startupScene:'Assets/Scenes/Board.hbscene.json',startupBlueprint:'Assets/Blueprints/BP_Janggi.hbblueprint.json'});
   await write('Settings/BuildProfiles.json',{version:1,profiles:[{id:'windows',name:'Windows',configuration:'release',productName:'HBJangi',width:1280,height:900,targetFrameRate:60,scenes:[{path:'Assets/Scenes/Board.hbscene.json',enabled:true}]}]});
-  const frame=(w,h,body)=>`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><defs><linearGradient id="ink" x2="0" y2="1"><stop stop-color="#263c3b"/><stop offset="1" stop-color="#101a1c"/></linearGradient></defs>${body}</svg>`;
-  await write('Assets/Art/Banner.svg',frame(252,82,'<path d="M0 9L14 0H240L252 12V70L240 82H0Z" fill="url(#ink)" stroke="#bca57a"/><path d="M9 14L20 7H234L244 16V65L235 74H9Z" fill="none" stroke="#bca57a" opacity=".45"/><path d="M18 58H232" stroke="#bca57a" opacity=".4"/>'));
-  await write('Assets/Art/Turn.svg',frame(290,44,'<path d="M0 22L22 2H268L290 22L268 42H22Z" fill="url(#ink)" stroke="#c3ae83"/><path d="M11 22L29 7H261L279 22L261 37H29Z" fill="none" stroke="#c3ae83" opacity=".4"/>'));
-  await write('Assets/Art/Button.svg',frame(240,44,'<path d="M0 22L12 2H228L240 22L228 42H12Z" fill="url(#ink)" stroke="#bca57a"/><path d="M8 22L17 7H223L232 22L223 37H17Z" fill="none" stroke="#bca57a" opacity=".45"/><path d="M4 22H18M222 22H236" stroke="#bca57a"/>'));
-  await write('Assets/Art/Notice.svg',frame(245,94,'<path d="M0 9L12 0H233L245 12V82L233 94H12L0 82Z" fill="url(#ink)" opacity=".94" stroke="#bca57a"/><path d="M11 14H40M205 80H234" stroke="#bca57a"/>'));
   console.log('PASS: generated HBEngine project, validated UI and Blueprint');
 }
 if(process.argv.includes('--build')){
