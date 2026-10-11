@@ -1,0 +1,7 @@
+Builds/
+Saved/
+native/build/
+node_modules/
+tests/*.exe
+tests/*.o
+*.tmp

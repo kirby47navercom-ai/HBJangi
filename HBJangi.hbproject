@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "engine": "HBEngine",
+  "engineVersion": "0.1.0",
+  "id": "0a8cfa5b-dade-4d5f-a548-bd591dea8e31",
+  "name": "HBJangi",
+  "startupScene": "Assets/Scenes/Board.hbscene.json",
+  "startupBlueprint": "Assets/Blueprints/BP_Janggi.hbblueprint.json"
+}

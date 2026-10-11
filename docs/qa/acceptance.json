@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "build": "2026-10-11T06-22-09-477Z-f1bd26e1",
+  "checks": [
+    "native BeginPlay",
+    "formation",
+    "pointer selection",
+    "legal hints",
+    "move and turn",
+    "undo",
+    "pass",
+    "draw",
+    "confirmed reset",
+    "SVG loading",
+    "1280x900 and 960x720 bounds",
+    "no runtime exceptions",
+    "clean exit and server shutdown"
+  ],
+  "errors": []
+}

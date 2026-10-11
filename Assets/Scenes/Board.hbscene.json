@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "sceneName": "HBJangi",
+  "objects": [
+    {
+      "id": "Janggi",
+      "name": "장기 대국",
+      "kind": "empty",
+      "visible": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "blueprintAsset": "Assets/Blueprints/BP_Janggi.hbblueprint.json"
+    }
+  ],
+  "surface": {
+    "color": "#889878",
+    "roughness": 0.72,
+    "metalness": 0.08,
+    "light": 3.2
+  },
+  "environment": {
+    "preset": "day",
+    "skyEnabled": false,
+    "sunEnabled": false,
+    "shadowEnabled": true,
+    "cloudsEnabled": false,
+    "fogEnabled": false,
+    "cloudDensity": 0.55,
+    "sunAzimuth": -30,
+    "sunElevation": 50,
+    "fogAmount": 0.25
+  },
+  "runtime": {
+    "dimension": "2d",
+    "gameConfig": "",
+    "gravity": [
+      0,
+      -9.81,
+      0
+    ],
+    "fixedDeltaTime": 0.016666666666666666,
+    "maxSubsteps": 8
+  }
+}

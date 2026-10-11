@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "profiles": [
+    {
+      "id": "windows",
+      "name": "Windows",
+      "configuration": "release",
+      "productName": "HBJangi",
+      "width": 1280,
+      "height": 900,
+      "targetFrameRate": 60,
+      "scenes": [
+        {
+          "path": "Assets/Scenes/Board.hbscene.json",
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}
