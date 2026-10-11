@@ -2,5 +2,5 @@
   "name": "hb-janggi",
   "private": true,
   "type": "module",
-  "scripts": {"generate": "node tools/project.mjs --generate", "build": "node tools/project.mjs --generate --build"}
+  "scripts": {"generate": "node tools/models.mjs && node tools/project.mjs --generate", "build": "node tools/models.mjs && node tools/project.mjs --generate --build"}
 }

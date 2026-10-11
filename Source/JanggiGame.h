@@ -11,11 +11,17 @@ public:
   void Click(int cell);
   HB_FUNCTION(BlueprintCallable, KoreanName="대국 조작")
   void Action(int command);
+  HB_FUNCTION(BlueprintCallable, KoreanName="장기 3D 선택")
+  void Pointer();
+  HB_FUNCTION(BlueprintCallable, KoreanName="장기 키보드 입력")
+  void Key(int command);
 private:
   janggi::Position position;
   std::vector<janggi::Position> history;
   int selected=-1,blue=0,red=0;
   bool confirmReset=false;
+  int cursor=76;
+  bool keyboard=false;
   std::string notice;
   void Render();
   void Record();

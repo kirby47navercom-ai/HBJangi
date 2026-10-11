@@ -5,7 +5,7 @@
   "variables": [],
   "nodes": [
     {
-      "id": "node_a0162301ccb944fe821ddb5df28f3db9",
+      "id": "node_b6448e586edb483aaf8fcc9d7e4e56c8",
       "key": "beginPlay",
       "position": {
         "x": 40,
@@ -14,7 +14,7 @@
       "splitPins": []
     },
     {
-      "id": "node_b7ded9a1164944d3b84ccceb4ea63689",
+      "id": "node_3cd84b5557bc46f88bcc60c3ef9a3cb3",
       "key": "nativeCall",
       "position": {
         "x": 40,
@@ -25,2257 +25,7 @@
       "inputValues": {}
     },
     {
-      "id": "node_f92b9f22b15b47abbe317b4e92461bf8",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell0"
-      }
-    },
-    {
-      "id": "node_6fcba2348ebb4e95a226723f4caf5bb4",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 0
-      }
-    },
-    {
-      "id": "node_0e634ba79d424d5c938e0a9c453fd388",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell1"
-      }
-    },
-    {
-      "id": "node_059af0c0f0d04625a6b6e9c696429b0b",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 1
-      }
-    },
-    {
-      "id": "node_87685bccb8874de4a7678f4bb308cee1",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell2"
-      }
-    },
-    {
-      "id": "node_e211fcc5a6124a4c85b856bfaba146b0",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 2
-      }
-    },
-    {
-      "id": "node_56cb24b919104c6796b5380d8cf05d31",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell3"
-      }
-    },
-    {
-      "id": "node_329c0429b6f542b2961abf69c8234ade",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 3
-      }
-    },
-    {
-      "id": "node_ae9fc4d4ad8c42728bc8306c24024e83",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell4"
-      }
-    },
-    {
-      "id": "node_dc2cb54da4db470784ebbe9dcaec649b",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 4
-      }
-    },
-    {
-      "id": "node_f33efc9aebca4a268c1fbfb95ad01d91",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell5"
-      }
-    },
-    {
-      "id": "node_e2e39cb4432a4e9382a76a5c8eb5536c",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 5
-      }
-    },
-    {
-      "id": "node_bca5038d63f049bd90ac3ac559146c94",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell6"
-      }
-    },
-    {
-      "id": "node_3c6a925fc06b4c26b93a49ec349d6fc3",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 6
-      }
-    },
-    {
-      "id": "node_4d522a0bfee3425a935bfb0fca1f9eb5",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell7"
-      }
-    },
-    {
-      "id": "node_ea9fb88fc9db4160840aa2e4afcb2261",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 7
-      }
-    },
-    {
-      "id": "node_543a334341f244d1a90380309cb4aeb5",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell8"
-      }
-    },
-    {
-      "id": "node_9f912b014103456487348088936b3800",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 8
-      }
-    },
-    {
-      "id": "node_43d215ba6d7949f196377958fd243e73",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell9"
-      }
-    },
-    {
-      "id": "node_9a03b5f77ccd492495b35ad86b471e16",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 9
-      }
-    },
-    {
-      "id": "node_9892e02410fe4f99906ac62c028878cb",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell10"
-      }
-    },
-    {
-      "id": "node_4b464b27219b4d07b207066aa035d655",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 10
-      }
-    },
-    {
-      "id": "node_967e496dca5347a1b12adf0a8a2a4a91",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell11"
-      }
-    },
-    {
-      "id": "node_2e2e574e482543b4ad009082a4aa8b47",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 11
-      }
-    },
-    {
-      "id": "node_6abf7c40056d4544a8d476072ba85623",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell12"
-      }
-    },
-    {
-      "id": "node_a65106db1ece44d78e670000e2e28d68",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 12
-      }
-    },
-    {
-      "id": "node_3cdf8e7938c04312b8290033bed10e75",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell13"
-      }
-    },
-    {
-      "id": "node_8f78fbe5d37a49fab7d9aaa257993e2b",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 13
-      }
-    },
-    {
-      "id": "node_50dcdaf33d7c41359875db2f1f67b91c",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell14"
-      }
-    },
-    {
-      "id": "node_9cfe38f4ca7a46b9a6bb3edeb4ab73de",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 14
-      }
-    },
-    {
-      "id": "node_e77629f655b1415f80562afc2f7e33f5",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell15"
-      }
-    },
-    {
-      "id": "node_9bc261538d6946e192b45a12245ddea2",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 15
-      }
-    },
-    {
-      "id": "node_c3cfc43e0f1f441db97eb8177f16876b",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell16"
-      }
-    },
-    {
-      "id": "node_08b46433612e4acbb3472d3300d17ca0",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 16
-      }
-    },
-    {
-      "id": "node_dd1366d612e94e0ba94347daf089a76a",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell17"
-      }
-    },
-    {
-      "id": "node_671115e0b90e4db0bf490ae570dd56d9",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 17
-      }
-    },
-    {
-      "id": "node_0ff7d7c49dd548849b1c261539558b00",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell18"
-      }
-    },
-    {
-      "id": "node_881a4a999a30480bbf76998b7ba827c7",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 18
-      }
-    },
-    {
-      "id": "node_9e93402eda074d6691d2c4371f5f8093",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell19"
-      }
-    },
-    {
-      "id": "node_cdd54c78943145b58b1f68a7ba7479c5",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 19
-      }
-    },
-    {
-      "id": "node_ebb249e6ffd04a4db01949f74e09a261",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell20"
-      }
-    },
-    {
-      "id": "node_2032dc553fe54e078996d4048cae985a",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 20
-      }
-    },
-    {
-      "id": "node_d3e3a9bab8864763abadd95cf1d3ee69",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell21"
-      }
-    },
-    {
-      "id": "node_32db96633cf94a93b7b4913bd403de65",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 21
-      }
-    },
-    {
-      "id": "node_09171caf99294ef1991604cecf07884d",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell22"
-      }
-    },
-    {
-      "id": "node_dc21588cfbdd448b82260dc73ee4676c",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 22
-      }
-    },
-    {
-      "id": "node_d38567b501f549878f083f834b1afd18",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell23"
-      }
-    },
-    {
-      "id": "node_0b0816b093354109a7ae72494270375c",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 23
-      }
-    },
-    {
-      "id": "node_6980134e0f6b4ad982d8143857c011a7",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell24"
-      }
-    },
-    {
-      "id": "node_f87f0d5cb6a94936b686eed7d34b3e95",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 24
-      }
-    },
-    {
-      "id": "node_1f7636d2856a4f59820783daf298bf9a",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell25"
-      }
-    },
-    {
-      "id": "node_0b09540d6ea043ef8f9379d0c5c1c2e5",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 25
-      }
-    },
-    {
-      "id": "node_982c0966271547fbb031425c6618db4e",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell26"
-      }
-    },
-    {
-      "id": "node_b6b514f669614e42a0b69d00a7dc80a6",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 26
-      }
-    },
-    {
-      "id": "node_e634dcf5b2c8449e8c7655e9fee2c455",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell27"
-      }
-    },
-    {
-      "id": "node_6659dd022f94451b95aecf4dbbc32a6c",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 27
-      }
-    },
-    {
-      "id": "node_573f29f096894fca8678d461a2959a36",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell28"
-      }
-    },
-    {
-      "id": "node_426d3bb42416466884359fd91986a65c",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 28
-      }
-    },
-    {
-      "id": "node_c5ff41b60c154bdf83b630bd97a5dee8",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell29"
-      }
-    },
-    {
-      "id": "node_0c3deb5bf7bd4872b56327bdb0c5077c",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 29
-      }
-    },
-    {
-      "id": "node_a487cbb410b040f78fe1064aba75f56a",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell30"
-      }
-    },
-    {
-      "id": "node_894120f6efc140aa903a883360da8ada",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 30
-      }
-    },
-    {
-      "id": "node_93a9dcbeaece4056bc8ca93c61fb7917",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell31"
-      }
-    },
-    {
-      "id": "node_1ece4111d22d420db4bd3d456951f779",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 31
-      }
-    },
-    {
-      "id": "node_dbc20c040cf741fe85ff7ed2a702d276",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell32"
-      }
-    },
-    {
-      "id": "node_b428f796bd264dec925104705688d2ae",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 32
-      }
-    },
-    {
-      "id": "node_00e65e549b694d76beb4facd10995465",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell33"
-      }
-    },
-    {
-      "id": "node_e90cecc623fc4361917fd9bcf3c866a1",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 33
-      }
-    },
-    {
-      "id": "node_03bb4a46aae04e5c8456e327784da26b",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell34"
-      }
-    },
-    {
-      "id": "node_b18e3a124cb24dbc9354603137116d68",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 34
-      }
-    },
-    {
-      "id": "node_d9f9519c07904caa9a4baef9df9d776d",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell35"
-      }
-    },
-    {
-      "id": "node_623349b570e24fb6ae524663b8cfa7dd",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 35
-      }
-    },
-    {
-      "id": "node_a635182195b34fb2bf283315d6533f5f",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell36"
-      }
-    },
-    {
-      "id": "node_0f1ab0ac7b2e4b92ad6550f392d1b4c3",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 36
-      }
-    },
-    {
-      "id": "node_4b7c7ee17f784d84a8daa6040abefc56",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell37"
-      }
-    },
-    {
-      "id": "node_e495ef26a05e431e9ec79feb3454e2be",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 37
-      }
-    },
-    {
-      "id": "node_3d02c9c890334f7eb4a7289695252d42",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell38"
-      }
-    },
-    {
-      "id": "node_fb647f82d934400fa66c78ba9fa8c175",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 38
-      }
-    },
-    {
-      "id": "node_98ed16c7c8f34858992a87883f54c6d4",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell39"
-      }
-    },
-    {
-      "id": "node_2420f9d6355740bf98000cb611bc75c4",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 39
-      }
-    },
-    {
-      "id": "node_eb555d32927c480b9d5292f98faf4aaa",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell40"
-      }
-    },
-    {
-      "id": "node_562437a8b3fa410e9a3a42272d234d40",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 40
-      }
-    },
-    {
-      "id": "node_b011e3bac37c47ca871f7eb540d9a0d7",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell41"
-      }
-    },
-    {
-      "id": "node_d9a57569e75d4d1fae97b0ae5c090c7d",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 41
-      }
-    },
-    {
-      "id": "node_84bde37f24e849ca8f6753b35e5ca79f",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell42"
-      }
-    },
-    {
-      "id": "node_c5ae1ecc9a6e471b83bb449e27e070e8",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 42
-      }
-    },
-    {
-      "id": "node_ae15b9cf53b84f42a93d5cea754ecb49",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell43"
-      }
-    },
-    {
-      "id": "node_f70154594bdf464aa89542be8804bbd1",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 43
-      }
-    },
-    {
-      "id": "node_b8e90bfd3a9d40bfb1727fa3b232fa4a",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell44"
-      }
-    },
-    {
-      "id": "node_885a4d943e4e4f099af20c6f09512305",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 44
-      }
-    },
-    {
-      "id": "node_c13cddd147f14e9180b1de4cbaedefff",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell45"
-      }
-    },
-    {
-      "id": "node_9b7dfe311c254bb99a6d6288e2287bed",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 45
-      }
-    },
-    {
-      "id": "node_e10e81cb2c3d40ed9800705c923f5988",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell46"
-      }
-    },
-    {
-      "id": "node_f7dc1518ef114d5c947afc7692d9ccc1",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 46
-      }
-    },
-    {
-      "id": "node_381b8e6703bb4790bd71271eccaf9d96",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell47"
-      }
-    },
-    {
-      "id": "node_248218f8cd8847a193add4b5875d21cb",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 47
-      }
-    },
-    {
-      "id": "node_2c9688345e6d48fcb621ba6284d4bdfd",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell48"
-      }
-    },
-    {
-      "id": "node_57c7b852a22a47f58f0a70de650d6f21",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 48
-      }
-    },
-    {
-      "id": "node_bea96a2b373d45068d20578672c15876",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell49"
-      }
-    },
-    {
-      "id": "node_61f48f3ed6c34692b3f1e23e17c349c3",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 49
-      }
-    },
-    {
-      "id": "node_1bf1fc515cdd4845bfee217b4486e643",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell50"
-      }
-    },
-    {
-      "id": "node_c4f6a1d7b4ca4593a532168db0181b36",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 50
-      }
-    },
-    {
-      "id": "node_2a29f490dead428b95b6941569d20aea",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell51"
-      }
-    },
-    {
-      "id": "node_65fbf852e705492f91f2e18f1d318be9",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 51
-      }
-    },
-    {
-      "id": "node_550b0104faa14c1f818724db3adb5d9f",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell52"
-      }
-    },
-    {
-      "id": "node_6e716d1035ee4fadab92da6c2bb66480",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 52
-      }
-    },
-    {
-      "id": "node_ac411fa2c1d24400a9cfc5bbf48a6f3f",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell53"
-      }
-    },
-    {
-      "id": "node_1b7a5a2193ff4ef59957b0f8c0d0b65d",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 53
-      }
-    },
-    {
-      "id": "node_58624e9c5f294127991dea31c10e7ae5",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell54"
-      }
-    },
-    {
-      "id": "node_1636ed3299b142218e27e7e2bd095aca",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 54
-      }
-    },
-    {
-      "id": "node_c1ab14e94d1743a3832081b30ce751dc",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell55"
-      }
-    },
-    {
-      "id": "node_1f8a001879654a7986c0508f6bb0ee46",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 55
-      }
-    },
-    {
-      "id": "node_662300e83ab847b3bcb1b1b9c23d3847",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell56"
-      }
-    },
-    {
-      "id": "node_991655077dae42dd87b5669943d6cc3c",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 56
-      }
-    },
-    {
-      "id": "node_43fe26dd5e8b430fbd8ae3add2aeb9f6",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell57"
-      }
-    },
-    {
-      "id": "node_9f5cd07c79f147c390ff5821b901a595",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 57
-      }
-    },
-    {
-      "id": "node_a80546cbf4d344728034458a58d65d8e",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell58"
-      }
-    },
-    {
-      "id": "node_adfecf64d9684ff68a082c88846ffc79",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 58
-      }
-    },
-    {
-      "id": "node_ba9047bea1b74cbb97ee4c917ef21496",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell59"
-      }
-    },
-    {
-      "id": "node_09fc7f193ab74cb7991491c25cb18282",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 59
-      }
-    },
-    {
-      "id": "node_f9f1f27791d74dcc82c03a0079d2790e",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell60"
-      }
-    },
-    {
-      "id": "node_fa461f6f9530495e90282833b0e3010b",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 60
-      }
-    },
-    {
-      "id": "node_267039954d564089a45a081e2abf0a84",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell61"
-      }
-    },
-    {
-      "id": "node_a02aeedd72654bce9c69f6d8374c1d4b",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 61
-      }
-    },
-    {
-      "id": "node_8cdf68cfff0a47388d687c324637b9ee",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell62"
-      }
-    },
-    {
-      "id": "node_c7d1d9b78c574470b6bb913091be890a",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 62
-      }
-    },
-    {
-      "id": "node_e93250ae4a6a4ee1bf95ae6c92d0ce72",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell63"
-      }
-    },
-    {
-      "id": "node_8ecb48b7ca0f456dae894f32f83bd3da",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 63
-      }
-    },
-    {
-      "id": "node_9e200e3ae04d4052b165caf70e89fb5c",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell64"
-      }
-    },
-    {
-      "id": "node_95ecca4a4e0648ba8e2bf8ce6e569d1e",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 64
-      }
-    },
-    {
-      "id": "node_907fa8a7339d4125b1286a7cbfe8fd44",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell65"
-      }
-    },
-    {
-      "id": "node_207dd2349a2946adb07fd7a1e23e4040",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 65
-      }
-    },
-    {
-      "id": "node_2fe994ab4c8f40ce94253231159fc071",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell66"
-      }
-    },
-    {
-      "id": "node_36be136467e945d89e413857ef9d8449",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 66
-      }
-    },
-    {
-      "id": "node_fc1f2a8bd04f4704813209b29a73fdfc",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell67"
-      }
-    },
-    {
-      "id": "node_5e37bb788dde4efea0273755b009b3b2",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 67
-      }
-    },
-    {
-      "id": "node_1b62a40bc2ed4e43b8b2341f5b936fc8",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell68"
-      }
-    },
-    {
-      "id": "node_c00d6783f24a4114afb53d5e33d85e43",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 68
-      }
-    },
-    {
-      "id": "node_2a1a881c993d4373815681e9b85b8794",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell69"
-      }
-    },
-    {
-      "id": "node_2555896b209d475d9f8757f0a04f58ba",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 69
-      }
-    },
-    {
-      "id": "node_1660424dc07041f8b1ff773c6be656d0",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell70"
-      }
-    },
-    {
-      "id": "node_7f5abb9d59a44857a81a339693075280",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 70
-      }
-    },
-    {
-      "id": "node_bd927cd2c1a4419db087fd2b52c21fa3",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell71"
-      }
-    },
-    {
-      "id": "node_6c608139837646bc9617468d351e39b7",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 71
-      }
-    },
-    {
-      "id": "node_a111ae6441074922809cd9a7f88e2826",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell72"
-      }
-    },
-    {
-      "id": "node_d3a132ea0a25485f9bec46905e056166",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 72
-      }
-    },
-    {
-      "id": "node_580669d9e7a947a4a0af900fad138101",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell73"
-      }
-    },
-    {
-      "id": "node_1b961d64ce5841b2b6f434edfecf2f3c",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 73
-      }
-    },
-    {
-      "id": "node_7985142e3de74065a2ddb612257ba9cc",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell74"
-      }
-    },
-    {
-      "id": "node_ba5a33b318014a01a39980023b9579e5",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 74
-      }
-    },
-    {
-      "id": "node_2e5255bcd30647889af1871038c32044",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell75"
-      }
-    },
-    {
-      "id": "node_739ee6e5baf348d2916adf9122239dc9",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 75
-      }
-    },
-    {
-      "id": "node_1b134fdfde9646809723710be320eae0",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell76"
-      }
-    },
-    {
-      "id": "node_33ae2d802bdd48d4956f32b3a5111ea6",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 76
-      }
-    },
-    {
-      "id": "node_10b128c928b24a599eec0b6a367b3eb8",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell77"
-      }
-    },
-    {
-      "id": "node_e47072aa47054e91beb3f1e5e51d577b",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 77
-      }
-    },
-    {
-      "id": "node_515479c4ef05484a94fbf6f6c45e69ba",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell78"
-      }
-    },
-    {
-      "id": "node_68546b20874642b5ac8206fb4d6467c5",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 78
-      }
-    },
-    {
-      "id": "node_dd0394afec31414a8c28475ffeeffa53",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell79"
-      }
-    },
-    {
-      "id": "node_edc0e6448a964cecaf5596dfea6b2d49",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 79
-      }
-    },
-    {
-      "id": "node_d18324abb57046f685a7cfc0cdb2124d",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell80"
-      }
-    },
-    {
-      "id": "node_5fc8abd8fb9b489398666c2f5527df9c",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 80
-      }
-    },
-    {
-      "id": "node_02508abd7a554ae787500026d7eb1b71",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell81"
-      }
-    },
-    {
-      "id": "node_fb79a638b6eb4ee8a55925d6fe173703",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 81
-      }
-    },
-    {
-      "id": "node_44cb1e4b9d0348778be53f873e855cd5",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell82"
-      }
-    },
-    {
-      "id": "node_8087b119978445598a37a60ff2711962",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 82
-      }
-    },
-    {
-      "id": "node_e51b7991723245c38ae4f2dcd4b8354a",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell83"
-      }
-    },
-    {
-      "id": "node_198120933b7b4aba9eff7efd89b823b6",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 83
-      }
-    },
-    {
-      "id": "node_bda2e9b634bc408aa63a962f9d9eba75",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell84"
-      }
-    },
-    {
-      "id": "node_472485ac8274474d89c0b1d7d93c5183",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 84
-      }
-    },
-    {
-      "id": "node_21c653391d214ab087825d0d1b180439",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell85"
-      }
-    },
-    {
-      "id": "node_286e98d7d70745ecb4bb042b66f46612",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 85
-      }
-    },
-    {
-      "id": "node_6433f588397b4db3a3595036d96d6197",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell86"
-      }
-    },
-    {
-      "id": "node_c14e5a9ddf594dbb8e1a04844d1115b3",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 86
-      }
-    },
-    {
-      "id": "node_0392c7782b104c93b4e417b2be86efd2",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell87"
-      }
-    },
-    {
-      "id": "node_12b93d92d44a465890399e6890d3c080",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 87
-      }
-    },
-    {
-      "id": "node_c9f0759dc50b46a68e1eaaaf1fb8fb76",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell88"
-      }
-    },
-    {
-      "id": "node_b38302f53961423696f8fce7d7b0d9cf",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 88
-      }
-    },
-    {
-      "id": "node_8c0e0cd941c145f7be4df36928f4884c",
-      "key": "customEvent",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "options": {
-        "eventName": "Cell89"
-      }
-    },
-    {
-      "id": "node_665d3ca0b91540a1a7b9d16969d08674",
-      "key": "nativeCall",
-      "position": {
-        "x": 40,
-        "y": 40
-      },
-      "splitPins": [],
-      "nativeId": "JanggiGame.Click",
-      "inputValues": {
-        "cell": 89
-      }
-    },
-    {
-      "id": "node_5a6c64a350bd4c1d850427f30cb54ad9",
+      "id": "node_c1e080009f7f4a8dacdea70dbac82a38",
       "key": "customEvent",
       "position": {
         "x": 40,
@@ -2287,7 +37,7 @@
       }
     },
     {
-      "id": "node_727cba50c5b24b0b955c38423de67278",
+      "id": "node_dc2337dd9bf6436588a39f0d5b8f8091",
       "key": "nativeCall",
       "position": {
         "x": 40,
@@ -2300,7 +50,7 @@
       }
     },
     {
-      "id": "node_192d1594e7a6426db6bc9d0c7df41690",
+      "id": "node_fbee83a0502c4fb8990e9896c06a410a",
       "key": "customEvent",
       "position": {
         "x": 40,
@@ -2312,7 +62,7 @@
       }
     },
     {
-      "id": "node_1965b48b6fc34999b8004825d2d98797",
+      "id": "node_2425613369194bbfad37fc8f0ca1b0c9",
       "key": "nativeCall",
       "position": {
         "x": 40,
@@ -2325,7 +75,7 @@
       }
     },
     {
-      "id": "node_c1dafa63046c4bfe8be9ef31e8e2198b",
+      "id": "node_ca698f1fb1ce432ba6b7d220fd9e4c81",
       "key": "customEvent",
       "position": {
         "x": 40,
@@ -2337,7 +87,7 @@
       }
     },
     {
-      "id": "node_620fd96383ec42d18d412802acf5dd66",
+      "id": "node_63fe6e809cb84a2f9bee0b61ff24eb1c",
       "key": "nativeCall",
       "position": {
         "x": 40,
@@ -2350,7 +100,7 @@
       }
     },
     {
-      "id": "node_94048bda731340418df5b63afa9bd0f1",
+      "id": "node_6cb24b83e534419cba7a16dad5fe0c24",
       "key": "customEvent",
       "position": {
         "x": 40,
@@ -2362,7 +112,7 @@
       }
     },
     {
-      "id": "node_d4272790a2b646feba9d8d7d8dff0599",
+      "id": "node_ed2228d3e3224913b67751cf94123842",
       "key": "nativeCall",
       "position": {
         "x": 40,
@@ -2375,7 +125,7 @@
       }
     },
     {
-      "id": "node_91b23824055b47d08ada08d57bc43bde",
+      "id": "node_99ff0b916f9342e5a8911da4602713a6",
       "key": "customEvent",
       "position": {
         "x": 40,
@@ -2387,7 +137,7 @@
       }
     },
     {
-      "id": "node_1c03d1f247374420a545059ca2b9afbe",
+      "id": "node_e1fa3c2db2e74ab98059e7b3562ba749",
       "key": "nativeCall",
       "position": {
         "x": 40,
@@ -2400,7 +150,7 @@
       }
     },
     {
-      "id": "node_39a50af0fc53465192ed4cef492dbf7d",
+      "id": "node_bef6b2280acc49d082ccc00fc00852c2",
       "key": "customEvent",
       "position": {
         "x": 40,
@@ -2412,7 +162,7 @@
       }
     },
     {
-      "id": "node_eed0eb43199c4c7e88edc643c876d988",
+      "id": "node_73a63bd5bb84441e8c6ab076b544ab66",
       "key": "nativeCall",
       "position": {
         "x": 40,
@@ -2423,976 +173,284 @@
       "inputValues": {
         "command": 5
       }
+    },
+    {
+      "id": "node_4772d2c73dd345cd8c1bfa378c69c7cc",
+      "key": "input",
+      "position": {
+        "x": 40,
+        "y": 40
+      },
+      "splitPins": [],
+      "options": {
+        "key": "LeftMouseButton"
+      }
+    },
+    {
+      "id": "node_ee5fd82b266649fb83c775f02a04b4ba",
+      "key": "nativeCall",
+      "position": {
+        "x": 40,
+        "y": 40
+      },
+      "splitPins": [],
+      "nativeId": "JanggiGame.Pointer",
+      "inputValues": {}
+    },
+    {
+      "id": "node_f43d31a89a474054ba0a0a352f90880b",
+      "key": "input",
+      "position": {
+        "x": 40,
+        "y": 40
+      },
+      "splitPins": [],
+      "options": {
+        "key": "ArrowLeft"
+      }
+    },
+    {
+      "id": "node_52f24be3730c45bf900eeca7ae3053f5",
+      "key": "nativeCall",
+      "position": {
+        "x": 40,
+        "y": 40
+      },
+      "splitPins": [],
+      "nativeId": "JanggiGame.Key",
+      "inputValues": {
+        "command": 0
+      }
+    },
+    {
+      "id": "node_ca9bb1180637490f9e52946f3641589f",
+      "key": "input",
+      "position": {
+        "x": 40,
+        "y": 40
+      },
+      "splitPins": [],
+      "options": {
+        "key": "ArrowRight"
+      }
+    },
+    {
+      "id": "node_e73e04c007c84b6194e1544b6277990b",
+      "key": "nativeCall",
+      "position": {
+        "x": 40,
+        "y": 40
+      },
+      "splitPins": [],
+      "nativeId": "JanggiGame.Key",
+      "inputValues": {
+        "command": 1
+      }
+    },
+    {
+      "id": "node_1fb3377b7aae4ef993400269fd5e6fc5",
+      "key": "input",
+      "position": {
+        "x": 40,
+        "y": 40
+      },
+      "splitPins": [],
+      "options": {
+        "key": "ArrowUp"
+      }
+    },
+    {
+      "id": "node_b067c9813f6248089d6b81e322d90c52",
+      "key": "nativeCall",
+      "position": {
+        "x": 40,
+        "y": 40
+      },
+      "splitPins": [],
+      "nativeId": "JanggiGame.Key",
+      "inputValues": {
+        "command": 2
+      }
+    },
+    {
+      "id": "node_c231d880a81e4d3db5eb725903d6650c",
+      "key": "input",
+      "position": {
+        "x": 40,
+        "y": 40
+      },
+      "splitPins": [],
+      "options": {
+        "key": "ArrowDown"
+      }
+    },
+    {
+      "id": "node_cc6468ad52564b81bcc978d610b4061c",
+      "key": "nativeCall",
+      "position": {
+        "x": 40,
+        "y": 40
+      },
+      "splitPins": [],
+      "nativeId": "JanggiGame.Key",
+      "inputValues": {
+        "command": 3
+      }
+    },
+    {
+      "id": "node_f9c6d889aea0460484002b95cb411eeb",
+      "key": "input",
+      "position": {
+        "x": 40,
+        "y": 40
+      },
+      "splitPins": [],
+      "options": {
+        "key": "Enter"
+      }
+    },
+    {
+      "id": "node_15d992530e17478e981ed55003e76d7a",
+      "key": "nativeCall",
+      "position": {
+        "x": 40,
+        "y": 40
+      },
+      "splitPins": [],
+      "nativeId": "JanggiGame.Key",
+      "inputValues": {
+        "command": 4
+      }
     }
   ],
   "edges": [
     {
       "from": {
-        "node": "node_a0162301ccb944fe821ddb5df28f3db9",
+        "node": "node_b6448e586edb483aaf8fcc9d7e4e56c8",
         "pin": "then"
       },
       "to": {
-        "node": "node_b7ded9a1164944d3b84ccceb4ea63689",
+        "node": "node_3cd84b5557bc46f88bcc60c3ef9a3cb3",
         "pin": "exec"
       }
     },
     {
       "from": {
-        "node": "node_f92b9f22b15b47abbe317b4e92461bf8",
+        "node": "node_c1e080009f7f4a8dacdea70dbac82a38",
         "pin": "then"
       },
       "to": {
-        "node": "node_6fcba2348ebb4e95a226723f4caf5bb4",
+        "node": "node_dc2337dd9bf6436588a39f0d5b8f8091",
         "pin": "exec"
       }
     },
     {
       "from": {
-        "node": "node_0e634ba79d424d5c938e0a9c453fd388",
+        "node": "node_fbee83a0502c4fb8990e9896c06a410a",
         "pin": "then"
       },
       "to": {
-        "node": "node_059af0c0f0d04625a6b6e9c696429b0b",
+        "node": "node_2425613369194bbfad37fc8f0ca1b0c9",
         "pin": "exec"
       }
     },
     {
       "from": {
-        "node": "node_87685bccb8874de4a7678f4bb308cee1",
+        "node": "node_ca698f1fb1ce432ba6b7d220fd9e4c81",
         "pin": "then"
       },
       "to": {
-        "node": "node_e211fcc5a6124a4c85b856bfaba146b0",
+        "node": "node_63fe6e809cb84a2f9bee0b61ff24eb1c",
         "pin": "exec"
       }
     },
     {
       "from": {
-        "node": "node_56cb24b919104c6796b5380d8cf05d31",
+        "node": "node_6cb24b83e534419cba7a16dad5fe0c24",
         "pin": "then"
       },
       "to": {
-        "node": "node_329c0429b6f542b2961abf69c8234ade",
+        "node": "node_ed2228d3e3224913b67751cf94123842",
         "pin": "exec"
       }
     },
     {
       "from": {
-        "node": "node_ae9fc4d4ad8c42728bc8306c24024e83",
+        "node": "node_99ff0b916f9342e5a8911da4602713a6",
         "pin": "then"
       },
       "to": {
-        "node": "node_dc2cb54da4db470784ebbe9dcaec649b",
+        "node": "node_e1fa3c2db2e74ab98059e7b3562ba749",
         "pin": "exec"
       }
     },
     {
       "from": {
-        "node": "node_f33efc9aebca4a268c1fbfb95ad01d91",
+        "node": "node_bef6b2280acc49d082ccc00fc00852c2",
         "pin": "then"
       },
       "to": {
-        "node": "node_e2e39cb4432a4e9382a76a5c8eb5536c",
+        "node": "node_73a63bd5bb84441e8c6ab076b544ab66",
         "pin": "exec"
       }
     },
     {
       "from": {
-        "node": "node_bca5038d63f049bd90ac3ac559146c94",
+        "node": "node_4772d2c73dd345cd8c1bfa378c69c7cc",
         "pin": "then"
       },
       "to": {
-        "node": "node_3c6a925fc06b4c26b93a49ec349d6fc3",
+        "node": "node_ee5fd82b266649fb83c775f02a04b4ba",
         "pin": "exec"
       }
     },
     {
       "from": {
-        "node": "node_4d522a0bfee3425a935bfb0fca1f9eb5",
+        "node": "node_f43d31a89a474054ba0a0a352f90880b",
         "pin": "then"
       },
       "to": {
-        "node": "node_ea9fb88fc9db4160840aa2e4afcb2261",
+        "node": "node_52f24be3730c45bf900eeca7ae3053f5",
         "pin": "exec"
       }
     },
     {
       "from": {
-        "node": "node_543a334341f244d1a90380309cb4aeb5",
+        "node": "node_ca9bb1180637490f9e52946f3641589f",
         "pin": "then"
       },
       "to": {
-        "node": "node_9f912b014103456487348088936b3800",
+        "node": "node_e73e04c007c84b6194e1544b6277990b",
         "pin": "exec"
       }
     },
     {
       "from": {
-        "node": "node_43d215ba6d7949f196377958fd243e73",
+        "node": "node_1fb3377b7aae4ef993400269fd5e6fc5",
         "pin": "then"
       },
       "to": {
-        "node": "node_9a03b5f77ccd492495b35ad86b471e16",
+        "node": "node_b067c9813f6248089d6b81e322d90c52",
         "pin": "exec"
       }
     },
     {
       "from": {
-        "node": "node_9892e02410fe4f99906ac62c028878cb",
+        "node": "node_c231d880a81e4d3db5eb725903d6650c",
         "pin": "then"
       },
       "to": {
-        "node": "node_4b464b27219b4d07b207066aa035d655",
+        "node": "node_cc6468ad52564b81bcc978d610b4061c",
         "pin": "exec"
       }
     },
     {
       "from": {
-        "node": "node_967e496dca5347a1b12adf0a8a2a4a91",
+        "node": "node_f9c6d889aea0460484002b95cb411eeb",
         "pin": "then"
       },
       "to": {
-        "node": "node_2e2e574e482543b4ad009082a4aa8b47",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_6abf7c40056d4544a8d476072ba85623",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_a65106db1ece44d78e670000e2e28d68",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_3cdf8e7938c04312b8290033bed10e75",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_8f78fbe5d37a49fab7d9aaa257993e2b",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_50dcdaf33d7c41359875db2f1f67b91c",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_9cfe38f4ca7a46b9a6bb3edeb4ab73de",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_e77629f655b1415f80562afc2f7e33f5",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_9bc261538d6946e192b45a12245ddea2",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_c3cfc43e0f1f441db97eb8177f16876b",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_08b46433612e4acbb3472d3300d17ca0",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_dd1366d612e94e0ba94347daf089a76a",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_671115e0b90e4db0bf490ae570dd56d9",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_0ff7d7c49dd548849b1c261539558b00",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_881a4a999a30480bbf76998b7ba827c7",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_9e93402eda074d6691d2c4371f5f8093",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_cdd54c78943145b58b1f68a7ba7479c5",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_ebb249e6ffd04a4db01949f74e09a261",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_2032dc553fe54e078996d4048cae985a",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_d3e3a9bab8864763abadd95cf1d3ee69",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_32db96633cf94a93b7b4913bd403de65",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_09171caf99294ef1991604cecf07884d",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_dc21588cfbdd448b82260dc73ee4676c",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_d38567b501f549878f083f834b1afd18",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_0b0816b093354109a7ae72494270375c",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_6980134e0f6b4ad982d8143857c011a7",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_f87f0d5cb6a94936b686eed7d34b3e95",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_1f7636d2856a4f59820783daf298bf9a",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_0b09540d6ea043ef8f9379d0c5c1c2e5",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_982c0966271547fbb031425c6618db4e",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_b6b514f669614e42a0b69d00a7dc80a6",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_e634dcf5b2c8449e8c7655e9fee2c455",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_6659dd022f94451b95aecf4dbbc32a6c",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_573f29f096894fca8678d461a2959a36",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_426d3bb42416466884359fd91986a65c",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_c5ff41b60c154bdf83b630bd97a5dee8",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_0c3deb5bf7bd4872b56327bdb0c5077c",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_a487cbb410b040f78fe1064aba75f56a",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_894120f6efc140aa903a883360da8ada",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_93a9dcbeaece4056bc8ca93c61fb7917",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_1ece4111d22d420db4bd3d456951f779",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_dbc20c040cf741fe85ff7ed2a702d276",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_b428f796bd264dec925104705688d2ae",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_00e65e549b694d76beb4facd10995465",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_e90cecc623fc4361917fd9bcf3c866a1",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_03bb4a46aae04e5c8456e327784da26b",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_b18e3a124cb24dbc9354603137116d68",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_d9f9519c07904caa9a4baef9df9d776d",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_623349b570e24fb6ae524663b8cfa7dd",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_a635182195b34fb2bf283315d6533f5f",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_0f1ab0ac7b2e4b92ad6550f392d1b4c3",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_4b7c7ee17f784d84a8daa6040abefc56",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_e495ef26a05e431e9ec79feb3454e2be",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_3d02c9c890334f7eb4a7289695252d42",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_fb647f82d934400fa66c78ba9fa8c175",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_98ed16c7c8f34858992a87883f54c6d4",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_2420f9d6355740bf98000cb611bc75c4",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_eb555d32927c480b9d5292f98faf4aaa",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_562437a8b3fa410e9a3a42272d234d40",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_b011e3bac37c47ca871f7eb540d9a0d7",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_d9a57569e75d4d1fae97b0ae5c090c7d",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_84bde37f24e849ca8f6753b35e5ca79f",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_c5ae1ecc9a6e471b83bb449e27e070e8",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_ae15b9cf53b84f42a93d5cea754ecb49",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_f70154594bdf464aa89542be8804bbd1",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_b8e90bfd3a9d40bfb1727fa3b232fa4a",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_885a4d943e4e4f099af20c6f09512305",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_c13cddd147f14e9180b1de4cbaedefff",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_9b7dfe311c254bb99a6d6288e2287bed",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_e10e81cb2c3d40ed9800705c923f5988",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_f7dc1518ef114d5c947afc7692d9ccc1",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_381b8e6703bb4790bd71271eccaf9d96",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_248218f8cd8847a193add4b5875d21cb",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_2c9688345e6d48fcb621ba6284d4bdfd",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_57c7b852a22a47f58f0a70de650d6f21",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_bea96a2b373d45068d20578672c15876",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_61f48f3ed6c34692b3f1e23e17c349c3",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_1bf1fc515cdd4845bfee217b4486e643",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_c4f6a1d7b4ca4593a532168db0181b36",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_2a29f490dead428b95b6941569d20aea",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_65fbf852e705492f91f2e18f1d318be9",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_550b0104faa14c1f818724db3adb5d9f",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_6e716d1035ee4fadab92da6c2bb66480",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_ac411fa2c1d24400a9cfc5bbf48a6f3f",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_1b7a5a2193ff4ef59957b0f8c0d0b65d",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_58624e9c5f294127991dea31c10e7ae5",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_1636ed3299b142218e27e7e2bd095aca",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_c1ab14e94d1743a3832081b30ce751dc",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_1f8a001879654a7986c0508f6bb0ee46",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_662300e83ab847b3bcb1b1b9c23d3847",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_991655077dae42dd87b5669943d6cc3c",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_43fe26dd5e8b430fbd8ae3add2aeb9f6",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_9f5cd07c79f147c390ff5821b901a595",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_a80546cbf4d344728034458a58d65d8e",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_adfecf64d9684ff68a082c88846ffc79",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_ba9047bea1b74cbb97ee4c917ef21496",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_09fc7f193ab74cb7991491c25cb18282",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_f9f1f27791d74dcc82c03a0079d2790e",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_fa461f6f9530495e90282833b0e3010b",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_267039954d564089a45a081e2abf0a84",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_a02aeedd72654bce9c69f6d8374c1d4b",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_8cdf68cfff0a47388d687c324637b9ee",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_c7d1d9b78c574470b6bb913091be890a",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_e93250ae4a6a4ee1bf95ae6c92d0ce72",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_8ecb48b7ca0f456dae894f32f83bd3da",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_9e200e3ae04d4052b165caf70e89fb5c",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_95ecca4a4e0648ba8e2bf8ce6e569d1e",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_907fa8a7339d4125b1286a7cbfe8fd44",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_207dd2349a2946adb07fd7a1e23e4040",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_2fe994ab4c8f40ce94253231159fc071",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_36be136467e945d89e413857ef9d8449",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_fc1f2a8bd04f4704813209b29a73fdfc",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_5e37bb788dde4efea0273755b009b3b2",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_1b62a40bc2ed4e43b8b2341f5b936fc8",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_c00d6783f24a4114afb53d5e33d85e43",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_2a1a881c993d4373815681e9b85b8794",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_2555896b209d475d9f8757f0a04f58ba",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_1660424dc07041f8b1ff773c6be656d0",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_7f5abb9d59a44857a81a339693075280",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_bd927cd2c1a4419db087fd2b52c21fa3",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_6c608139837646bc9617468d351e39b7",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_a111ae6441074922809cd9a7f88e2826",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_d3a132ea0a25485f9bec46905e056166",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_580669d9e7a947a4a0af900fad138101",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_1b961d64ce5841b2b6f434edfecf2f3c",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_7985142e3de74065a2ddb612257ba9cc",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_ba5a33b318014a01a39980023b9579e5",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_2e5255bcd30647889af1871038c32044",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_739ee6e5baf348d2916adf9122239dc9",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_1b134fdfde9646809723710be320eae0",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_33ae2d802bdd48d4956f32b3a5111ea6",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_10b128c928b24a599eec0b6a367b3eb8",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_e47072aa47054e91beb3f1e5e51d577b",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_515479c4ef05484a94fbf6f6c45e69ba",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_68546b20874642b5ac8206fb4d6467c5",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_dd0394afec31414a8c28475ffeeffa53",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_edc0e6448a964cecaf5596dfea6b2d49",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_d18324abb57046f685a7cfc0cdb2124d",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_5fc8abd8fb9b489398666c2f5527df9c",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_02508abd7a554ae787500026d7eb1b71",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_fb79a638b6eb4ee8a55925d6fe173703",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_44cb1e4b9d0348778be53f873e855cd5",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_8087b119978445598a37a60ff2711962",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_e51b7991723245c38ae4f2dcd4b8354a",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_198120933b7b4aba9eff7efd89b823b6",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_bda2e9b634bc408aa63a962f9d9eba75",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_472485ac8274474d89c0b1d7d93c5183",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_21c653391d214ab087825d0d1b180439",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_286e98d7d70745ecb4bb042b66f46612",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_6433f588397b4db3a3595036d96d6197",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_c14e5a9ddf594dbb8e1a04844d1115b3",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_0392c7782b104c93b4e417b2be86efd2",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_12b93d92d44a465890399e6890d3c080",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_c9f0759dc50b46a68e1eaaaf1fb8fb76",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_b38302f53961423696f8fce7d7b0d9cf",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_8c0e0cd941c145f7be4df36928f4884c",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_665d3ca0b91540a1a7b9d16969d08674",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_5a6c64a350bd4c1d850427f30cb54ad9",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_727cba50c5b24b0b955c38423de67278",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_192d1594e7a6426db6bc9d0c7df41690",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_1965b48b6fc34999b8004825d2d98797",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_c1dafa63046c4bfe8be9ef31e8e2198b",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_620fd96383ec42d18d412802acf5dd66",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_94048bda731340418df5b63afa9bd0f1",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_d4272790a2b646feba9d8d7d8dff0599",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_91b23824055b47d08ada08d57bc43bde",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_1c03d1f247374420a545059ca2b9afbe",
-        "pin": "exec"
-      }
-    },
-    {
-      "from": {
-        "node": "node_39a50af0fc53465192ed4cef492dbf7d",
-        "pin": "then"
-      },
-      "to": {
-        "node": "node_eed0eb43199c4c7e88edc643c876d988",
+        "node": "node_15d992530e17478e981ed55003e76d7a",
         "pin": "exec"
       }
     }
@@ -3496,12 +554,51 @@
               }
             ],
             "ko": "대국 조작"
+          },
+          {
+            "name": "Pointer",
+            "label": "Pointer",
+            "category": "C++",
+            "pure": false,
+            "static": false,
+            "event": "none",
+            "inputs": [],
+            "outputs": [],
+            "returnType": "void",
+            "parameters": [],
+            "ko": "장기 3D 선택"
+          },
+          {
+            "name": "Key",
+            "label": "Key",
+            "category": "C++",
+            "pure": false,
+            "static": false,
+            "event": "none",
+            "inputs": [
+              {
+                "id": "command",
+                "label": "command",
+                "type": "int",
+                "array": false
+              }
+            ],
+            "outputs": [],
+            "returnType": "void",
+            "parameters": [
+              {
+                "name": "command",
+                "cppType": "int",
+                "out": false
+              }
+            ],
+            "ko": "장기 키보드 입력"
           }
         ]
       }
     ],
-    "header": "#pragma once\n#include <HBEngine/Game.hpp>\n#include \"JanggiRules.h\"\n\nHB_CLASS(Blueprintable)\nclass JanggiGame : public hb::Actor {\npublic:\n  HB_FUNCTION(BlueprintCallable, KoreanName=\"장기 시작\")\n  void Start();\n  HB_FUNCTION(BlueprintCallable, KoreanName=\"교차점 선택\")\n  void Click(int cell);\n  HB_FUNCTION(BlueprintCallable, KoreanName=\"대국 조작\")\n  void Action(int command);\nprivate:\n  janggi::Position position;\n  std::vector<janggi::Position> history;\n  int selected=-1,blue=0,red=0;\n  bool confirmReset=false;\n  std::string notice;\n  void Render();\n  void Record();\n};\n",
-    "source": "#include \"JanggiGame.h\"\nusing namespace janggi;\nvoid JanggiGame::Start(){\n  hb::UI::Show(this,\"Assets/UI/W_Janggi.hbwidget.json\",\"board\");\n  position=initial(blue,red);history={position};selected=-1;notice=\"기물을 선택해 주세요.\\n이동할 곳을 누르면 한 수를 둬요.\";confirmReset=false;Render();\n}\nvoid JanggiGame::Record(){\n  history.push_back(position);\n  int count=0;for(const auto& p:history)if(key(p)==key(position))count++;\n  // shortcut: 반복 국면은 일괄 무승부, 대회 모드 도입 시 연속 장군·추격 규정을 구분한다.\n  if(count>=3){position.draw=true;history.back()=position;notice=\"같은 국면이 세 번 반복되어 무승부예요.\";}\n  selected=-1;confirmReset=false;\n}\nvoid JanggiGame::Click(int cell){\n  if(cell<0||cell>=90||position.winner||position.draw)return;\n  confirmReset=false;\n  if(selected==cell){selected=-1;notice=\"선택을 취소했어요.\";}\n  else if(side(position.board[cell])==position.turn){selected=cell;notice=\"금색 점으로 표시된 곳으로 이동할 수 있어요.\";}\n  else if(selected>=0&&legal(position,selected,cell)){\n    int captured=position.board[cell];move(position,selected,cell);notice=captured?\"상대 기물을 잡았어요.\":\"다음 차례예요.\";Record();\n  }else notice=\"그곳으로는 이동할 수 없어요.\";\n  Render();\n}\nvoid JanggiGame::Action(int command){\n  if(command==0){if(history.size()>1){history.pop_back();position=history.back();selected=-1;notice=\"한 수를 무른 상태예요.\";}else notice=\"아직 무를 수가 없어요.\";confirmReset=false;}\n  else if(command==1){if(!confirmReset&&history.size()>1){confirmReset=true;notice=\"새 대국을 다시 누르면 현재 대국을 지워요.\";}else {hb::UI::Remove(this,\"board\");Start();return;}}\n  else if(command==2){if(pass(position)){notice=\"한 수를 쉬었어요.\";Record();}else notice=\"장군 상태에서는 한 수를 쉴 수 없어요.\";}\n  else if(command==3){if(!position.winner&&!position.draw&&facing(position)&&!check(position,position.turn)){position.draw=true;notice=\"빅장을 받아 무승부로 끝냈어요.\";history.back()=position;}}\n  else if(command==4||command==5){if(history.size()==1){if(command==4)blue=(blue+1)%4;else red=(red+1)%4;position=initial(blue,red);history={position};selected=-1;notice=\"마·상 배치를 바꿨어요.\";}}\n  Render();\n}\nvoid JanggiGame::Render(){\n  const char* labels[]={\"\",\"궁\",\"사\",\"상\",\"마\",\"차\",\"포\",\"졸\"};\n  for(int i=0;i<90;i++){\n    std::string n=\"Cell\"+std::to_string(i),art=\"Art\"+std::to_string(i);int p=position.board[i];\n    hb::UI::SetTexture(this,\"board\",art,p?\"Assets/Art/\"+std::string(p>0?\"Blue\":\"Red\")+\".svg\":\"Assets/Art/Empty.svg\");\n    bool dest=selected>=0&&legal(position,selected,i);\n    hb::UI::SetText(this,\"board\",n,p?(std::abs(p)==King?(p>0?\"楚\":\"漢\"):(p<0&&std::abs(p)==Soldier?\"병\":labels[std::abs(p)])):dest?\"•\":\"\");\n    hb::UI::SetColor(this,\"board\",n,dest?hb::Color{.70f,.43f,.10f,1}:p>0?hb::Color{.10f,.31f,.38f,1}:hb::Color{.61f,.19f,.17f,1});\n  }\n  int marked=selected>=0?selected:position.lastTo;\n  hb::UI::SetVisible(this,\"board\",\"Selection\",marked>=0);\n  if(marked>=0)hb::UI::SetPosition(this,\"board\",\"Selection\",hb::Vec2{float(104+marked%9*72-32),float(186+marked/9*72-32)});\n  std::string status=position.draw?\"무승부\":position.winner?(position.winner>0?\"초 승리\":\"한 승리\"):(position.turn>0?\"초의 차례\":\"한의 차례\");\n  if(!position.draw&&!position.winner&&check(position,position.turn))status+=\" · 장군!\";\n  hb::UI::SetText(this,\"board\",\"Status\",status);\n  hb::UI::SetText(this,\"board\",\"Notice\",notice);\n  hb::UI::SetText(this,\"board\",\"MoveCount\",std::to_string(history.size()-1)+\" 수 진행\");\n  hb::UI::SetEnabled(this,\"board\",\"Undo\",history.size()>1);\n  hb::UI::SetText(this,\"board\",\"New\",confirmReset?\"새 대국 확인\":\"새 대국\");\n  hb::UI::SetEnabled(this,\"board\",\"Pass\",!position.winner&&!position.draw&&!check(position,position.turn));\n  hb::UI::SetEnabled(this,\"board\",\"Draw\",!position.winner&&!position.draw&&facing(position)&&!check(position,position.turn));\n  hb::UI::SetEnabled(this,\"board\",\"BlueSetup\",history.size()==1);\n  hb::UI::SetEnabled(this,\"board\",\"RedSetup\",history.size()==1);\n  const char* forms[]={\"상마 / 마상\",\"마상 / 마상\",\"상마 / 상마\",\"마상 / 상마\"};\n  hb::UI::SetText(this,\"board\",\"BlueSetup\",std::string(\"초 배치  \")+forms[blue]);\n  hb::UI::SetText(this,\"board\",\"RedSetup\",std::string(\"한 배치  \")+forms[red]);\n  int blueScore=0,redScore=0;const int values[]={0,0,3,3,5,13,7,2};\n  for(int q:position.board){if(q>0)blueScore+=values[q];else if(q<0)redScore+=values[-q];}\n  hb::UI::SetText(this,\"board\",\"BlueScore\",\"초  ·  남은 기물 \"+std::to_string(blueScore)+\"점\");\n  hb::UI::SetText(this,\"board\",\"RedScore\",\"한  ·  남은 기물 \"+std::to_string(redScore)+\"점\");\n}\n",
+    "header": "#pragma once\n#include <HBEngine/Game.hpp>\n#include \"JanggiRules.h\"\n\nHB_CLASS(Blueprintable)\nclass JanggiGame : public hb::Actor {\npublic:\n  HB_FUNCTION(BlueprintCallable, KoreanName=\"장기 시작\")\n  void Start();\n  HB_FUNCTION(BlueprintCallable, KoreanName=\"교차점 선택\")\n  void Click(int cell);\n  HB_FUNCTION(BlueprintCallable, KoreanName=\"대국 조작\")\n  void Action(int command);\n  HB_FUNCTION(BlueprintCallable, KoreanName=\"장기 3D 선택\")\n  void Pointer();\n  HB_FUNCTION(BlueprintCallable, KoreanName=\"장기 키보드 입력\")\n  void Key(int command);\nprivate:\n  janggi::Position position;\n  std::vector<janggi::Position> history;\n  int selected=-1,blue=0,red=0;\n  bool confirmReset=false;\n  int cursor=76;\n  bool keyboard=false;\n  std::string notice;\n  void Render();\n  void Record();\n};\n",
+    "source": "#include \"JanggiGame.h\"\n#include <cmath>\nusing namespace janggi;\nnamespace {\nvoid present(hb::Actor* actor,bool visible,const hb::Vec3& position){\n  if(!actor)return;\n  bool active=hb::ActorPool::IsActive(actor);\n  if(visible){if(!active){hb::Transform transform;transform.position=position;hb::ActorPool::Acquire({actor},transform);}else hb::Scene::SetPosition(actor,position);}\n  else if(active)hb::ActorPool::Release(actor);\n}\n}\nvoid JanggiGame::Start(){\n  hb::UI::Show(this,\"Assets/UI/W_Janggi.hbwidget.json\",\"board\");\n  position=initial(blue,red);history={position};selected=-1;cursor=76;keyboard=false;notice=\"기물을 고른 뒤\\n이동할 곳을 누르세요.\";confirmReset=false;Render();\n}\nvoid JanggiGame::Record(){\n  history.push_back(position);\n  int count=0;for(const auto& p:history)if(key(p)==key(position))count++;\n  // shortcut: 반복 국면은 일괄 무승부, 대회 모드 도입 시 연속 장군·추격 규정을 구분한다.\n  if(count>=3){position.draw=true;history.back()=position;notice=\"같은 국면이 세 번 반복되어 무승부예요.\";}\n  selected=-1;confirmReset=false;\n}\nvoid JanggiGame::Click(int cell){\n  if(cell<0||cell>=90||position.winner||position.draw)return;\n  confirmReset=false;\n  if(selected==cell){selected=-1;notice=\"선택을 취소했어요.\";}\n  else if(side(position.board[cell])==position.turn){selected=cell;notice=\"금색 고리가 있는 곳으로\\n이동할 수 있어요.\";}\n  else if(selected>=0&&legal(position,selected,cell)){\n    int captured=position.board[cell];move(position,selected,cell);notice=captured?\"상대 기물을 잡았어요.\":\"다음 차례예요.\";Record();\n  }else notice=\"그곳으로는 이동할 수 없어요.\";\n  Render();\n}\nvoid JanggiGame::Action(int command){\n  if(command==0){if(history.size()>1){history.pop_back();position=history.back();selected=-1;notice=\"한 수를 무른 상태예요.\";}else notice=\"아직 무를 수가 없어요.\";confirmReset=false;}\n  else if(command==1){if(!confirmReset&&history.size()>1){confirmReset=true;notice=\"새 대국을 다시 누르면 현재 대국을 지워요.\";}else {hb::UI::Remove(this,\"board\");Start();return;}}\n  else if(command==2){if(pass(position)){notice=\"한 수를 쉬었어요.\";Record();}else notice=\"장군 상태에서는 한 수를 쉴 수 없어요.\";}\n  else if(command==3){if(!position.winner&&!position.draw&&facing(position)&&!check(position,position.turn)){position.draw=true;notice=\"빅장을 받아 무승부로 끝냈어요.\";history.back()=position;}}\n  else if(command==4||command==5){if(history.size()==1){if(command==4)blue=(blue+1)%4;else red=(red+1)%4;position=initial(blue,red);history={position};selected=-1;notice=\"마·상 배치를 바꿨어요.\";}}\n  Render();\n}\nvoid JanggiGame::Key(int command){\n  if(command<0||command>4)return;\n  keyboard=true;\n  int x=cursor%9,z=cursor/9;\n  if(command==0)x=std::max(0,x-1);\n  if(command==1)x=std::min(8,x+1);\n  if(command==2)z=std::max(0,z-1);\n  if(command==3)z=std::min(9,z+1);\n  cursor=z*9+x;\n  if(command==4)Click(cursor);else Render();\n}\nvoid JanggiGame::Pointer(){\n  hb::Vec3 hit;\n  if(!hb::Input::GetMouseWorldPosition(hb::Vec3{0,1,0},hb::Vec3{0,.15f,0},hit))return;\n  int x=int(std::round(hit.x+4)),z=int(std::round(hit.z+4.5f));\n  if(inside(x,z)&&std::abs(hit.x-(x-4))<.49f&&std::abs(hit.z-(z-4.5f))<.49f){keyboard=false;cursor=z*9+x;Click(cursor);}\n}\nvoid JanggiGame::Render(){\n  int counts[2][8]{};\n  for(int i=0;i<90;i++){\n    int p=position.board[i];\n    if(p){int s=p>0?0:1,k=std::abs(p),index=counts[s][k]++;auto* actor=hb::Scene::FindActorById(std::string(p>0?\"Blue\":\"Red\")+std::to_string(k)+\"_\"+std::to_string(index),true);present(actor,true,hb::Vec3{float(i%9-4),0,float(i/9)-4.5f});if(actor)hb::Scene::SetRotation(actor,hb::Vec3{0,p>0?0.f:180.f,0});}\n    auto* hint=hb::Scene::FindActorById(\"Hint\"+std::to_string(i),true);\n    present(hint,selected>=0&&legal(position,selected,i),hb::Vec3{float(i%9-4),.035f,float(i/9)-4.5f});\n  }\n  const int totals[]={0,1,2,2,2,2,2,5};\n  for(int s=0;s<2;s++)for(int k=1;k<=7;k++)for(int j=counts[s][k];j<totals[k];j++){auto* actor=hb::Scene::FindActorById(std::string(s==0?\"Blue\":\"Red\")+std::to_string(k)+\"_\"+std::to_string(j),true);present(actor,false,hb::Vec3{});}\n  int marked=keyboard?cursor:selected>=0?selected:position.lastTo;\n  present(hb::Scene::FindActorById(\"Selection\",true),marked>=0,hb::Vec3{float(marked%9-4),.055f,float(marked/9)-4.5f});\n  std::string status=position.draw?\"무승부\":position.winner?(position.winner>0?\"초 승리\":\"한 승리\"):(position.turn>0?\"초의 차례\":\"한의 차례\");\n  if(!position.draw&&!position.winner&&check(position,position.turn))status+=\" · 장군!\";\n  hb::UI::SetText(this,\"board\",\"Status\",status);\n  hb::UI::SetText(this,\"board\",\"Notice\",notice);\n  hb::UI::SetText(this,\"board\",\"MoveCount\",std::to_string(history.size()-1)+\" 수 진행\");\n  hb::UI::SetEnabled(this,\"board\",\"Undo\",history.size()>1);\n  hb::UI::SetText(this,\"board\",\"New\",confirmReset?\"새 대국 확인\":\"새 대국\");\n  hb::UI::SetEnabled(this,\"board\",\"Pass\",!position.winner&&!position.draw&&!check(position,position.turn));\n  hb::UI::SetEnabled(this,\"board\",\"Draw\",!position.winner&&!position.draw&&facing(position)&&!check(position,position.turn));\n  hb::UI::SetEnabled(this,\"board\",\"BlueSetup\",history.size()==1);\n  hb::UI::SetEnabled(this,\"board\",\"RedSetup\",history.size()==1);\n  const char* forms[]={\"象馬 / 馬象\",\"馬象 / 馬象\",\"象馬 / 象馬\",\"馬象 / 象馬\"};\n  hb::UI::SetText(this,\"board\",\"BlueSetup\",std::string(\"초 배치  \")+forms[blue]);\n  hb::UI::SetText(this,\"board\",\"RedSetup\",std::string(\"한 배치  \")+forms[red==1?2:red==2?1:red]);\n  int blueScore=0,redScore=0;const int values[]={0,0,3,3,5,13,7,2};\n  for(int q:position.board){if(q>0)blueScore+=values[q];else if(q<0)redScore+=values[-q];}\n  hb::UI::SetText(this,\"board\",\"BlueScore\",\"楚  \"+std::to_string(blueScore));\n  hb::UI::SetText(this,\"board\",\"RedScore\",\"漢  \"+std::to_string(redScore));\n}\n",
     "headerPath": "Source/JanggiGame.h",
     "sourcePath": "Source/JanggiGame.cpp"
   }

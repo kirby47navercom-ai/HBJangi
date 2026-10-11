@@ -1,0 +1,45 @@
+"""Original board and engraved face textures; no font file is redistributed."""
+from pathlib import Path
+from PIL import Image, ImageDraw, ImageFont
+
+root = Path(__file__).resolve().parents[1] / 'Assets' / 'Art'
+root.mkdir(parents=True, exist_ok=True)
+font = ImageFont.truetype('C:/Windows/Fonts/malgunbd.ttf', 150)
+blue = ['', '楚', '士', '象', '馬', '車', '包', '卒']
+red = ['', '漢', '士', '象', '馬', '車', '包', '兵']
+for team, labels, base, ink in [('Blue', blue, '#d8e0e2', '#1c3846'), ('Red', red, '#d9b980', '#643d30')]:
+    for kind in range(1, 8):
+        image = Image.new('RGB', (256, 256), base)
+        draw = ImageDraw.Draw(image)
+        draw.regular_polygon((128, 128, 118), n_sides=8, rotation=22.5, outline=ink, width=3)
+        draw.regular_polygon((128, 128, 111), n_sides=8, rotation=22.5, outline=ink, width=1)
+        draw.text((128, 119), labels[kind], font=font, anchor='mm', fill=ink, stroke_width=1)
+        image.save(root / f'{team}{kind}.png')
+
+image = Image.new('RGB', (1800, 2048), '#17222c')
+draw = ImageDraw.Draw(image)
+# Fine brushed metal; deliberately no random state or external assets.
+for y in range(2048):
+    c = 31 + (y * 17 % 7)
+    draw.line((0, y, 1800, y), fill=(c - 9, c, c + 9))
+def point(x, z):
+    return ((x + 4.6) / 9.2 * 1800, (z + 5.1) / 10.2 * 2048)
+def line(a, b, width=3, color='#8e947f'):
+    draw.line((*point(*a), *point(*b)), fill=color, width=width)
+for x in range(-4, 5): line((x, -4.5), (x, 4.5))
+for row in range(10): line((-4, row - 4.5), (4, row - 4.5))
+for z in [-4.5, 2.5]:
+    line((-1, z), (1, z + 2)); line((1, z), (-1, z + 2))
+for x in [-4.38, 4.38]: line((x, -4.9), (x, 4.9), 4, '#ac9364')
+for z in [-4.9, 4.9]: line((-4.38, z), (4.38, z), 4, '#ac9364')
+for row in [2, 3, 6, 7]:
+    for col in ([1, 7] if row in [2, 7] else [0, 2, 4, 6, 8]):
+        x, z = col - 4, row - 4.5
+        for sx in [-1, 1]:
+            for sz in [-1, 1]:
+                if -4 <= x + sx * .12 <= 4:
+                    line((x + sx * .08, z + sz * .17), (x + sx * .08, z + sz * .08), 2)
+                    line((x + sx * .08, z + sz * .08), (x + sx * .17, z + sz * .08), 2)
+image.save(root / 'BoardMetal.png')
+assert all((root / f'{team}{kind}.png').is_file() for team in ['Blue', 'Red'] for kind in range(1, 8))
+print('PASS: original metal board and 14 Hanja face textures')
