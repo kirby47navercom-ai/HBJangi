@@ -1,6 +1,6 @@
 # HBJangi
 
-HBEngine으로 만든 Windows용 로컬 2인 3D 장기예요. 실제 메시·조명·그림자로 판과 기물을 그리고, 정면 직교 카메라로 판을 똑바로 내려다봐요. 초와 한의 한자는 각자 진영을 향해요. 서브컬처풍 캐릭터 일러스트와 대국 HUD를 사용해요.
+HBEngine으로 만든 Windows용 로컬 2인 3D 장기예요. 실제 메시·조명·그림자로 판과 기물을 그리고, 정면 직교 카메라로 판을 똑바로 내려다봐요. 초와 한의 한자는 각자 진영을 향해요. 배경 그림 없이 장기판 자체의 청록·홍색 궁성 문양과 금속 장식으로 서브컬처 느낌을 표현해요.
 
 ![실제 HBEngine Player 화면](docs/qa/player-1280.png)
 
@@ -31,7 +31,7 @@ npm run build
 
 이 버전은 대회 규정 인증을 받은 심판 프로그램이 아니에요. 반복 국면은 일괄 무승부로 처리하며, 대회별 연속 장군·추격 반복 벌칙은 구현하지 않았어요. AI 상대·온라인 대전·대국 저장·음향은 범위에 포함하지 않았어요.
 
-규칙 참고: [Tabletopia 장기 규칙](https://c.tabletopia.com/games/chinese-chess-korean-chess/rules/janggiruleswikipedia/en), [Janggi 규칙 개요](https://en.wikipedia.org/wiki/Janggi). 규칙과 3D 모델·기물 텍스처·HUD SVG는 직접 작성했어요. 캐릭터 일러스트는 내장 ImageGen 도구로 생성했어요. [아트 기준과 생성 프롬프트](docs/ART.md)에 기록했어요.
+규칙 참고: [Tabletopia 장기 규칙](https://c.tabletopia.com/games/chinese-chess-korean-chess/rules/janggiruleswikipedia/en), [Janggi 규칙 개요](https://en.wikipedia.org/wiki/Janggi). 규칙과 3D 모델·기물 텍스처·HUD SVG는 직접 작성했어요. [판과 기물의 아트 기준](docs/ART.md)에 기록했어요.
 
 ## 검증
 
@@ -51,4 +51,4 @@ node tools/smoke.mjs
 - `tools/models.mjs`: 엔진에 설치된 Three.js로 원본 GLB 재생성
 - `tools/textures.py`: Pillow와 Windows 맑은 고딕으로 기물·판 PNG 재생성. 폰트 파일은 배포하지 않아요. PNG 원본은 저장소에 있어요.
 
-UI 기준: 궁중 판타지 일러스트, 옻칠색 금속 판, 팔각 입체 기물, 진영별 은색/황동색과 한자 방향, 장식 프레임의 이름표/차례/대국 버튼. 웹 카드형 사이드바와 우주 배경은 사용하지 않아요. 1280×900 기준 화면 맞춤 배율과 선택/호버/눌림/비활성 상태를 제공해요. 판·규칙과 위젯 입력은 분리되어 있어요.
+UI 기준: 배경 그림 없는 장기 중심 화면, 진영 문양을 새긴 옻칠색 금속 판, 팔각 입체 기물, 진영별 은색/황동색과 한자 방향, 장식 프레임의 이름표/차례/대국 버튼. 웹 카드형 사이드바와 우주 배경은 사용하지 않아요. 1280×900 기준 화면 맞춤 배율과 선택/호버/눌림/비활성 상태를 제공해요. 판·규칙과 위젯 입력은 분리되어 있어요.

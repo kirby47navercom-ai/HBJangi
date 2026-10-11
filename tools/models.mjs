@@ -42,7 +42,4 @@ for(const [name,radius,tube] of [['Selection',.49,.025],['Hint',.11,.024]]){
   const g=new THREE.TorusGeometry(radius,tube,8,32);g.rotateX(-Math.PI/2);
   const m=material('#dcbb72',.25,.3);m.emissiveFactor=[.3,.2,.05];await save(name,[{geometry:g}],[m]);
 }
-const backdrop=material('#ffffff',0,1,'Assets/Art/Duel.png');backdrop.doubleSided=true;backdrop.extensions={KHR_materials_unlit:{}};
-const illustration=new THREE.PlaneGeometry(19.36,13.6);const imageUV=illustration.getAttribute('uv');for(let i=0;i<imageUV.count;i++)imageUV.setY(i,1-imageUV.getY(i));
-await save('Duel',[{geometry:illustration}],[backdrop]);
-console.log('PASS: 18 original GLB meshes with embedded textures');
+console.log('PASS: 17 original board and piece GLB meshes with embedded textures');

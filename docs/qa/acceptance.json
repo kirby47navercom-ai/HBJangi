@@ -1,13 +1,13 @@
 {
   "passed": true,
-  "build": "2026-10-11T06-54-34-274Z-65d1eaca",
+  "build": "2026-10-11T06-59-30-386Z-cb55d67d",
   "checks": [
     "native BeginPlay",
     "32 modeled pieces facing respective owners",
     "embedded Hanja textures",
-    "anime duel illustration and native HUD",
+    "board-only art and native HUD",
     "straight overhead orthographic camera",
-    "no space scene",
+    "no decorative background actors",
     "formation",
     "3D pointer ray picking",
     "3D legal rings",

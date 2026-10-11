@@ -25,7 +25,7 @@ if(process.argv.includes('--generate')){
   add('Text','RedName',1016,35,215,36,{text:'漢  ·  홍련',fontSize:27,color:'#f0d1bd'});
   add('Text','BlueScore',62,76,204,24,{text:'楚',fontSize:16,color:'#b8c9c4'});
   add('Text','RedScore',1019,76,204,24,{text:'漢',fontSize:16,color:'#c9b8a0'});
-  add('Text','Title',480,13,320,34,{text:'將 棋',fontSize:26,color:'#263738',align:'center'});
+  add('Text','Title',480,13,320,34,{text:'將 棋',fontSize:26,color:'#ecdfbf',align:'center'});
   add('Image','TurnBanner',495,54,290,44,{texture:'Assets/Art/Turn.svg'});
   add('Text','Status',505,60,270,30,{text:'초의 차례',fontSize:22,color:'#ecdfbf',align:'center'});
   add('Text','MoveCount',1110,852,130,22,{text:'0 수 진행',fontSize:14,color:'#e6dac4',align:'right'});
@@ -52,7 +52,6 @@ if(process.argv.includes('--generate')){
   const object=(id,kind,pos=[0,0,0],asset)=>{const o={id,name:id,kind,position:pos,rotation:[0,0,0],scale:[1,1,1],visible:true,components:defaultsForObject(kind),...asset?{asset}:{}};scene.objects.push(o);return o;};
   object('Janggi','empty').blueprintAsset='Assets/Blueprints/BP_Janggi.hbblueprint.json';
   object('Board','model',[0,0,0],'Assets/Models/Board.glb');
-  const backdrop=object('Duel','model',[0,0,-45],'Assets/Models/Duel.glb');backdrop.parent='Camera';Object.assign(backdrop.components.find(c=>c.type==='MeshRenderer').properties,{castShadow:false,receiveShadow:false});
   const camera=object('Camera','camera',[0,18,0]);camera.rotation=[-90,0,0];Object.assign(camera.components.find(c=>c.type==='Camera').properties,{main:true,projection:'orthographic',orthographicSize:6.8});
   const key=object('KeyLight','directionalLight',[1,12,6]);key.rotation=[-55,-30,0];Object.assign(key.components.find(c=>c.type==='DirectionalLight').properties,{intensity:2.3,color:[1,.91,.78,1],castShadow:true});
   const fill=object('FillLight','directionalLight',[-5,7,-3]);fill.rotation=[-35,140,0];Object.assign(fill.components.find(c=>c.type==='DirectionalLight').properties,{intensity:1.3,color:[.66,.78,1,1],castShadow:false});

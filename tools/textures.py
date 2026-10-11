@@ -26,6 +26,22 @@ def point(x, z):
     return ((x + 4.6) / 9.2 * 1800, (z + 5.1) / 10.2 * 2048)
 def line(a, b, width=3, color='#8e947f'):
     draw.line((*point(*a), *point(*b)), fill=color, width=width)
+# Faction motifs belong to the physical board, with a quiet playing grid.
+for z, tint, accent in [(-4.5, '#203238', '#85b5b7'), (2.5, '#30262c', '#b58988')]:
+    draw.rectangle((*point(-1, z), *point(1, z + 2)), fill=tint)
+    for x in [-1.15, 1.15]:
+        line((x, z + .15), (x, z + 1.85), 2, accent)
+    for edge in [z + .15, z + 1.85]:
+        line((-1.15, edge), (-.8, edge), 3, accent)
+        line((.8, edge), (1.15, edge), 3, accent)
+for x in [-4.23, 4.23]:
+    for z, accent in [(-4.73, '#85b5b7'), (4.73, '#b58988')]:
+        # Small inlaid diamond and fans at the outer corners, away from cells.
+        d = .075
+        draw.polygon([point(x, z-d), point(x+d, z), point(x, z+d), point(x-d, z)], fill=accent)
+        sx, sz = (-1 if x > 0 else 1), (-1 if z > 0 else 1)
+        for n in range(1, 4):
+            line((x+sx*.13, z+sz*n*.05), (x+sx*(.13+n*.07), z+sz*n*.05), 2, accent)
 for x in range(-4, 5): line((x, -4.5), (x, 4.5))
 for row in range(10): line((-4, row - 4.5), (4, row - 4.5))
 for z in [-4.5, 2.5]:
